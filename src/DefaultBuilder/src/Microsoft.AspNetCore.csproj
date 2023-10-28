@@ -16,9 +16,7 @@
     <Reference Include="Microsoft.AspNetCore.Diagnostics" />
     <Reference Include="Microsoft.AspNetCore.HostFiltering" />
     <Reference Include="Microsoft.AspNetCore.Hosting" />
-    <Reference Include="Microsoft.AspNetCore.Routing" />
-    <Reference Include="Microsoft.AspNetCore.Server.IIS" />
-    <Reference Include="Microsoft.AspNetCore.Server.IISIntegration" />
+    <Reference Include="Microsoft.AspNetCore.Routing" />    
     <Reference Include="Microsoft.AspNetCore.Server.Kestrel" />
     <Reference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
     <Reference Include="Microsoft.Extensions.Configuration.FileExtensions" />
@@ -32,6 +30,7 @@
     <Reference Include="Microsoft.Extensions.Logging.Console" />
     <Reference Include="Microsoft.Extensions.Logging.Debug" />
     <Reference Include="Microsoft.Extensions.Logging.EventSource" />
+    <Reference Include="Microsoft.AspNetCore.HttpOverrides" />
   </ItemGroup>
 
   <ItemGroup>

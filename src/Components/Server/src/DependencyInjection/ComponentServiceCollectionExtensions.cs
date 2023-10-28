@@ -3,7 +3,6 @@
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Components.Server.BlazorPack;
@@ -78,8 +77,7 @@ public static class ComponentServiceCollectionExtensions
         // These intentionally replace the non-interactive versions included in MVC.
         services.AddScoped<NavigationManager, RemoteNavigationManager>();
         services.AddScoped<IJSRuntime, RemoteJSRuntime>();
-        services.AddScoped<INavigationInterception, RemoteNavigationInterception>();
-        services.TryAddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();
+        services.AddScoped<INavigationInterception, RemoteNavigationInterception>();        
 
         services.TryAddEnumerable(ServiceDescriptor.Singleton<IConfigureOptions<CircuitOptions>, CircuitOptionsJSInteropDetailedErrorsConfiguration>());
         services.TryAddEnumerable(ServiceDescriptor.Singleton<IConfigureOptions<CircuitOptions>, CircuitOptionsJavaScriptInitializersConfiguration>());

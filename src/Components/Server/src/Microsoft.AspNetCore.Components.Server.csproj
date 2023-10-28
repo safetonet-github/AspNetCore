@@ -13,8 +13,7 @@
     <Nullable>annotations</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="Microsoft.AspNetCore.Components.Authorization" />
+  <ItemGroup>    
     <Reference Include="Microsoft.AspNetCore.Components.Web" />
     <Reference Include="Microsoft.AspNetCore.DataProtection.Extensions" />
     <Reference Include="Microsoft.AspNetCore.SignalR" />

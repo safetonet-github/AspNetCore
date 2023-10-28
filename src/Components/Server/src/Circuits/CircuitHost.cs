@@ -3,7 +3,6 @@
 
 using System.Globalization;
 using System.Security.Claims;
-using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -567,15 +566,7 @@ internal partial class CircuitHost : IAsyncDisposable
 
     public void SetCircuitUser(ClaimsPrincipal user)
     {
-        // This can be called before the circuit is initialized.
-        AssertNotDisposed();
-
-        var authenticationStateProvider = Services.GetService<AuthenticationStateProvider>() as IHostEnvironmentAuthenticationStateProvider;
-        if (authenticationStateProvider != null)
-        {
-            var authenticationState = new AuthenticationState(user);
-            authenticationStateProvider.SetAuthenticationState(Task.FromResult(authenticationState));
-        }
+        throw new NotImplementedException();
     }
 
     public void SendPendingBatches()

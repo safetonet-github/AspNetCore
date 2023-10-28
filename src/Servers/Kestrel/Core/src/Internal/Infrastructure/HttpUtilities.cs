@@ -535,7 +535,7 @@ internal static partial class HttpUtilities
     public static AltSvcHeader? GetEndpointAltSvc(System.Net.IPEndPoint endpoint, HttpProtocols protocols)
     {
         var hasHttp1OrHttp2 = protocols.HasFlag(HttpProtocols.Http1) || protocols.HasFlag(HttpProtocols.Http2);
-        var hasHttp3 = protocols.HasFlag(HttpProtocols.Http3);
+        var hasHttp3 = false;
 
         if (hasHttp1OrHttp2 && hasHttp3)
         {

@@ -28,14 +28,4 @@ public enum HttpProtocols
     /// The <see cref="Http1"/> and <see cref="Http2"/> protocol versions.
     /// </summary>
     Http1AndHttp2 = Http1 | Http2,
-
-    /// <summary>
-    /// The HTTP/3.0 protocol version.
-    /// </summary>
-    Http3 = 0x4,
-
-    /// <summary>
-    /// The <see cref="Http1"/>, <see cref="Http2"/>, and <see cref="Http3"/> protocol versions.
-    /// </summary>
-    Http1AndHttp2AndHttp3 = Http1 | Http2 | Http3
 }

@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Features;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2;
-using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http3;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure;
 using Microsoft.Extensions.Logging;
 
@@ -66,11 +65,7 @@ internal sealed class HttpConnection : ITimeoutHandler
                     // _http2Connection is about to be initialized.
                     requestProcessor = new Http2Connection((HttpConnectionContext)_context);
                     _protocolSelectionState = ProtocolSelectionState.Selected;
-                    break;
-                case HttpProtocols.Http3:
-                    requestProcessor = new Http3Connection((HttpMultiplexedConnectionContext)_context);
-                    _protocolSelectionState = ProtocolSelectionState.Selected;
-                    break;
+                    break;                
                 case HttpProtocols.None:
                     // An error was already logged in SelectProtocol(), but we should close the connection.
                     break;
@@ -202,7 +197,6 @@ internal sealed class HttpConnection : ITimeoutHandler
         var isMultiplexTransport = _context is HttpMultiplexedConnectionContext;
         var http1Enabled = _context.Protocols.HasFlag(HttpProtocols.Http1);
         var http2Enabled = _context.Protocols.HasFlag(HttpProtocols.Http2);
-        var http3Enabled = _context.Protocols.HasFlag(HttpProtocols.Http3);
 
         string? error = null;
 
@@ -213,11 +207,6 @@ internal sealed class HttpConnection : ITimeoutHandler
 
         if (isMultiplexTransport)
         {
-            if (http3Enabled)
-            {
-                return HttpProtocols.Http3;
-            }
-
             error = $"Protocols {_context.Protocols} not supported on multiplexed transport.";
         }
 

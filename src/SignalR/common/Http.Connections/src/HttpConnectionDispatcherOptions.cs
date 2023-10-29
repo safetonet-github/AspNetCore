@@ -2,8 +2,6 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System.IO.Pipelines;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 
 namespace Microsoft.AspNetCore.Http.Connections;
 
@@ -26,8 +24,7 @@ public class HttpConnectionDispatcherOptions
     /// Initializes a new instance of the <see cref="HttpConnectionDispatcherOptions"/> class.
     /// </summary>
     public HttpConnectionDispatcherOptions()
-    {
-        AuthorizationData = new List<IAuthorizeData>();
+    {   
         Transports = HttpTransports.All;
         WebSockets = new WebSocketOptions();
         LongPolling = new LongPollingOptions();
@@ -35,11 +32,6 @@ public class HttpConnectionDispatcherOptions
         ApplicationMaxBufferSize = DefaultBufferSize;
         TransportSendTimeout = TimeSpan.FromSeconds(10);
     }
-
-    /// <summary>
-    /// Gets a collection of <see cref="IAuthorizeData"/> used during HTTP connection pipeline.
-    /// </summary>
-    public IList<IAuthorizeData> AuthorizationData { get; }
 
     /// <summary>
     /// Gets or sets a bitmask combining one or more <see cref="HttpTransportType"/> values that specify what transports the server should use to receive HTTP requests.

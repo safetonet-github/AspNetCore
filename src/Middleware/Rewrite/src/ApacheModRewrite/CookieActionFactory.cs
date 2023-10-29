@@ -3,6 +3,7 @@
 
 using System.Diagnostics;
 using System.Globalization;
+using Jokersoft.AspNetCore.Rewrite;
 using Microsoft.AspNetCore.Rewrite.UrlActions;
 
 namespace Microsoft.AspNetCore.Rewrite.ApacheModRewrite;

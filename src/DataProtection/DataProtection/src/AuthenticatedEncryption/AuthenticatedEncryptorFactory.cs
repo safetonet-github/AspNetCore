@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
+using Jokersoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Cryptography;
 using Microsoft.AspNetCore.Cryptography.Cng;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
@@ -54,7 +55,7 @@ public sealed class AuthenticatedEncryptorFactory : IAuthenticatedEncryptorFacto
         }
 
         if (IsGcmAlgorithm(authenticatedConfiguration.EncryptionAlgorithm))
-        {
+        {   
 #if NETCOREAPP
             return new AesGcmAuthenticatedEncryptor(secret, GetAlgorithmKeySizeInBits(authenticatedConfiguration.EncryptionAlgorithm) / 8);
 #else

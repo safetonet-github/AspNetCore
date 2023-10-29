@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core middleware for exception handling, exception display pages, and diagnostics information. Includes developer exception page middleware, exception handler middleware, runtime info middleware, status code page middleware, and welcome page middleware</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;diagnostics</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(SharedSourceRoot)Diagnostics\*.cs" />
+    <Compile Include="$(SharedSourceRoot)RazorViews\*.cs" />
+    <Compile Include="$(SharedSourceRoot)StackTrace\**\*.cs" />
+    <Compile Include="$(SharedSourceRoot)TypeNameHelper\*.cs" />
+    <Compile Include="$(SharedSourceRoot)Reroute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Diagnostics.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Hosting.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Jokersoft.AspNetCore.Routing" />
+    <Reference Include="Jokersoft.AspNetCore.WebUtilities" />
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Options" />
+  </ItemGroup>
+</Project>

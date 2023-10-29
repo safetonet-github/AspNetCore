@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core data protection abstractions.
+Commonly used types:
+Jokersoft.AspNetCore.DataProtection.IDataProtectionProvider
+Jokersoft.AspNetCore.DataProtection.IDataProtector</Description>
+    <TargetFrameworks>$(DefaultNetFxTargetFramework);netstandard2.0;$(DefaultNetCoreTargetFramework)</TargetFrameworks>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;dataprotection</PackageTags>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\shared\src\*.cs" LinkBase="Shared" />
+    <Compile Include="$(SharedSourceRoot)WebEncoders\**\*.cs" />
+    <Compile Include="$(SharedSourceRoot)TrimmingAttributes.cs" LinkBase="Shared" Condition="'$(TargetFramework)' != '$(DefaultNetCoreTargetFramework)'" />
+  </ItemGroup>
+</Project>

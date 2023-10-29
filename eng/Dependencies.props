@@ -13,8 +13,8 @@ and are generated based on the last package release.
   </PropertyGroup>
 
   <ItemGroup Label=".NET team dependencies">
-    <LatestPackageReference Include="Microsoft.AspNetCore.Razor.Language" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.Razor.Language" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.Mvc.Razor.Extensions" />
     <LatestPackageReference Include="Microsoft.Azure.SignalR" />
     <LatestPackageReference Include="Microsoft.Bcl.HashCode" />
     <LatestPackageReference Include="Microsoft.Css.Parser" />
@@ -127,14 +127,14 @@ and are generated based on the last package release.
 
   <ItemGroup Label=".NET team dependencies (Non-source-build)" Condition="'$(DotNetBuildFromSource)' != 'true'">
     <LatestPackageReference Include="Microsoft.AspNet.WebApi.Client" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.2.1" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.1.x64" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.1.x86" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.5.0.x64" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.5.0.x86" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.6.0.x64" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.AzureAppServices.SiteExtension.6.0.x86" />
-    <LatestPackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Runtime" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.2.1" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.3.1.x64" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.3.1.x86" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.5.0.x64" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.5.0.x86" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.6.0.x64" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.AzureAppServices.SiteExtension.6.0.x86" />
+    <LatestPackageReference Include="Jokersoft.AspNetCore.Components.WebAssembly.Runtime" />
     <LatestPackageReference Include="Microsoft.Internal.Runtime.AspNetCore.Transport" />
     <LatestPackageReference Include="Microsoft.Bcl.AsyncInterfaces" />
     <LatestPackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" />
@@ -145,8 +145,7 @@ and are generated based on the last package release.
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore" />
-    <LatestPackageReference Include="Microsoft.Extensions.Caching.SqlServer" />
-    <LatestPackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+    <LatestPackageReference Include="Jokersoft.Extensions.Caching.StackExchangeRedis" />
     <LatestPackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" />
     <LatestPackageReference Include="Microsoft.IdentityModel.Protocols.WsFederation" />
     <LatestPackageReference Include="Microsoft.Internal.AspNetCore.H2Spec.All" />

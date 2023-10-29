@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Cryptography.Cng;
-using Microsoft.AspNetCore.Cryptography.Internal;
+using Jokersoft.AspNetCore.Cryptography.Internal;
 
 namespace Microsoft.AspNetCore.Cryptography.SafeHandles;
 

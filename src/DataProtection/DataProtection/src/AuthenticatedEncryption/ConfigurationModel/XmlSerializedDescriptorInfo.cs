@@ -3,6 +3,7 @@
 
 using System;
 using System.Xml.Linq;
+using Jokersoft.AspNetCore.DataProtection;
 
 namespace Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
 

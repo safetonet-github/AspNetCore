@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core HTTP feature interface definitions.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Connections.Abstractions" />
+    <Reference Include="Jokersoft.Extensions.Features" />
+    <Reference Include="Microsoft.Extensions.Primitives" />
+    <Reference Include="Jokersoft.Net.Http.Headers" />
+    <Reference Include="System.IO.Pipelines" />
+  </ItemGroup>
+</Project>

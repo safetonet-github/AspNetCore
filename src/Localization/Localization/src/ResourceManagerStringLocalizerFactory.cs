@@ -6,6 +6,7 @@ using System.Collections.Concurrent;
 using System.IO;
 using System.Reflection;
 using System.Resources;
+using Jokersoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Jokersoft.AspNetCore.WebUtilities;
 
 namespace Microsoft.AspNetCore.WebUtilities;
 

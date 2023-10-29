@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core HTML abstractions used for building HTML content.
+Commonly used types:
+Jokersoft.AspNetCore.Html.HtmlString
+Jokersoft.AspNetCore.Html.IHtmlContent</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+</Project>

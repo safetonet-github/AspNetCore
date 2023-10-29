@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
-using Microsoft.AspNetCore.Http.Abstractions;
+using Jokersoft.AspNetCore.Http.Abstractions;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Internal;
 

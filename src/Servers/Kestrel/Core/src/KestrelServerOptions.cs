@@ -7,6 +7,7 @@ using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
+using Jokersoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.AspNetCore.Certificates.Generation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal;
@@ -170,24 +171,6 @@ public class KestrelServerOptions
     internal bool IsDevCertLoaded { get; set; }
 
     /// <summary>
-    /// Internal AppContext switch to toggle the WebTransport and HTTP/3 datagrams experiemental features.
-    /// </summary>
-    private bool? _enableWebTransportAndH3Datagrams;
-    internal bool EnableWebTransportAndH3Datagrams
-    {
-        get
-        {
-            if (!_enableWebTransportAndH3Datagrams.HasValue)
-            {
-                _enableWebTransportAndH3Datagrams = AppContext.TryGetSwitch("Microsoft.AspNetCore.Server.Kestrel.Experimental.WebTransportAndH3Datagrams", out var enabled) && enabled;
-            }
-
-            return _enableWebTransportAndH3Datagrams.Value;
-        }
-        set => _enableWebTransportAndH3Datagrams = value;
-    }
-
-    /// <summary>
     /// Internal AppContext switch to toggle whether a request line can end with LF only instead of CR/LF.
     /// </summary>
     private bool? _disableHttp1LineFeedTerminators;
@@ -262,8 +245,8 @@ public class KestrelServerOptions
         writer.WritePropertyName(nameof(AllowResponseHeaderCompression));
         writer.WriteBooleanValue(AllowResponseHeaderCompression);
 
-        writer.WritePropertyName(nameof(EnableAltSvc));
-        writer.WriteBooleanValue(EnableAltSvc);
+        //writer.WritePropertyName(nameof(EnableAltSvc));
+        //writer.WriteBooleanValue(EnableAltSvc);
 
         writer.WritePropertyName(nameof(IsDevCertLoaded));
         writer.WriteBooleanValue(IsDevCertLoaded);

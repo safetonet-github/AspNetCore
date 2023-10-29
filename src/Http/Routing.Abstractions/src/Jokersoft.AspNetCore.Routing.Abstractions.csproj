@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core abstractions for routing requests to application logic and for generating links.
+Commonly used types:
+Jokersoft.AspNetCore.Routing.IRouter
+Jokersoft.AspNetCore.Routing.RouteData</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;routing</PackageTags>
+    <IsPackable>true</IsPackable>
+    <Nullable>annotations</Nullable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(SharedSourceRoot)PropertyHelper\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http.Abstractions" />
+  </ItemGroup>
+</Project>

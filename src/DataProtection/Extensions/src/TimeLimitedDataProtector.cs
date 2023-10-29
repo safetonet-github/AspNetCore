@@ -5,7 +5,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography;
 using System.Threading;
-using Microsoft.AspNetCore.DataProtection.Extensions;
+using Jokersoft.AspNetCore.DataProtection.Extensions;
 
 namespace Microsoft.AspNetCore.DataProtection;
 

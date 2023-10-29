@@ -20,8 +20,7 @@ public static class ConnectionsDependencyInjectionExtensions
     /// <returns>The same instance of the <see cref="IServiceCollection"/> for chaining.</returns>
     public static IServiceCollection AddConnections(this IServiceCollection services)
     {
-        services.AddRouting();
-        services.AddAuthorization();
+        services.AddRouting();        
         services.TryAddEnumerable(ServiceDescriptor.Singleton<IConfigureOptions<ConnectionOptions>, ConnectionOptionsSetup>());
         services.TryAddSingleton<HttpConnectionDispatcher>();
         services.TryAddSingleton<HttpConnectionManager>();

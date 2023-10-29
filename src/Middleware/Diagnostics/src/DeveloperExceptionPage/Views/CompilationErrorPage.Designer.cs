@@ -64,7 +64,7 @@ using Microsoft.AspNetCore.Diagnostics.RazorViews;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <meta charset=\"utf-8\" />\r\n        <title>");
 #nullable restore
 #line 25 "CompilationErrorPage.cshtml"
-          Write(Resources.ErrorPageHtml_Title);
+          Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_Title);
 
 #line default
 #line hidden
@@ -341,7 +341,7 @@ a {
             WriteLiteral("lock {\r\n        border-top-color: #444;\r\n        border-bottom-color: #444;\r\n    }\r\n\r\n    .expandCollapseButton {\r\n        background-color: #444;\r\n        color: inherit;\r\n    }\r\n}\r\n\r\n        </style>\r\n    </head>\r\n    <body>\r\n        <h1>");
 #nullable restore
 #line 303 "CompilationErrorPage.cshtml"
-       Write(Resources.ErrorPageHtml_CompilationException);
+       Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_CompilationException);
 
 #line default
 #line hidden

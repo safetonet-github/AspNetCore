@@ -117,11 +117,7 @@ public static class ConnectionEndpointRouteBuilderExtensions
         // Add metadata to all of Endpoints
         compositeConventionBuilder.Add(e =>
         {
-            // Add the authorization data as metadata
-            foreach (var data in options.AuthorizationData)
-            {
-                e.Metadata.Add(data);
-            }
+            
         });
 
         return new ConnectionEndpointRouteBuilder(compositeConventionBuilder);

@@ -4,6 +4,7 @@
 using System;
 using System.Globalization;
 using System.Security.Cryptography;
+using Jokersoft.AspNetCore.DataProtection;
 
 namespace Microsoft.AspNetCore.DataProtection;
 

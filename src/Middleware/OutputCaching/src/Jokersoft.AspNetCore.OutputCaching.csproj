@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core middleware for caching HTTP responses on the server.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Jokersoft.AspNetCore.OutputCaching.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Jokersoft.AspNetCore.Http" />
+    <Reference Include="Microsoft.Extensions.Caching.Memory" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(RepoRoot)src\Shared\TaskToApm.cs" Link="Streams\TaskToApm.cs" />
+  </ItemGroup>
+</Project>

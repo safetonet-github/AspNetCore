@@ -260,7 +260,8 @@ a {
     color: #44c5f2;
     background-color: transparent;
     font-size: 1.2em;
-    text-align: left;");
+    text-align: left;
+");
             WriteLiteral(@"
     text-decoration: none;
     display: inline-block;
@@ -358,7 +359,7 @@ a {
             WriteLiteral("lock {\r\n        border-top-color: #444;\r\n        border-bottom-color: #444;\r\n    }\r\n\r\n    .expandCollapseButton {\r\n        background-color: #444;\r\n        color: inherit;\r\n    }\r\n}\r\n\r\n        </style>\r\n    </head>\r\n    <body>\r\n        <h1>");
 #nullable restore
 #line 304 "ErrorPage.cshtml"
-       Write(Resources.ErrorPageHtml_UnhandledException);
+       Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_UnhandledException);
 
 #line default
 #line hidden
@@ -468,7 +469,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("                <p class=\"location\">");
 #nullable restore
 #line 324 "ErrorPage.cshtml"
-                               Write(Resources.ErrorPageHtml_UnknownLocation);
+                               Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_UnknownLocation);
 
 #line default
 #line hidden
@@ -525,7 +526,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("        <ul id=\"header\">\r\n            <li id=\"stack\" tabindex=\"1\" class=\"selected\">\r\n                ");
 #nullable restore
 #line 344 "ErrorPage.cshtml"
-           Write(Resources.ErrorPageHtml_StackButton);
+           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_StackButton);
 
 #line default
 #line hidden
@@ -533,7 +534,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("\r\n            </li>\r\n            <li id=\"query\" tabindex=\"2\">\r\n                ");
 #nullable restore
 #line 347 "ErrorPage.cshtml"
-           Write(Resources.ErrorPageHtml_QueryButton);
+           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_QueryButton);
 
 #line default
 #line hidden
@@ -541,7 +542,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("\r\n            </li>\r\n            <li id=\"cookies\" tabindex=\"3\">\r\n                ");
 #nullable restore
 #line 350 "ErrorPage.cshtml"
-           Write(Resources.ErrorPageHtml_CookiesButton);
+           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_CookiesButton);
 
 #line default
 #line hidden
@@ -549,7 +550,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("\r\n            </li>\r\n            <li id=\"headers\" tabindex=\"4\">\r\n                ");
 #nullable restore
 #line 353 "ErrorPage.cshtml"
-           Write(Resources.ErrorPageHtml_HeadersButton);
+           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_HeadersButton);
 
 #line default
 #line hidden
@@ -557,7 +558,7 @@ WriteAttributeValue("", 6368, firstFrame.File, 6368, 16, false);
             WriteLiteral("\r\n            </li>\r\n            <li id=\"routing\" tabindex=\"5\">\r\n                ");
 #nullable restore
 #line 356 "ErrorPage.cshtml"
-           Write(Resources.ErrorPageHtml_RoutingButton);
+           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_RoutingButton);
 
 #line default
 #line hidden
@@ -909,7 +910,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <table>\r\n                    <thead>\r\n                        <tr>\r\n                            <th>");
 #nullable restore
 #line 448 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_VariableColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_VariableColumn);
 
 #line default
 #line hidden
@@ -917,7 +918,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                            <th>");
 #nullable restore
 #line 449 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_ValueColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_ValueColumn);
 
 #line default
 #line hidden
@@ -971,7 +972,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <p>");
 #nullable restore
 #line 468 "ErrorPage.cshtml"
-              Write(Resources.ErrorPageHtml_NoQueryStringData);
+              Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NoQueryStringData);
 
 #line default
 #line hidden
@@ -996,7 +997,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <table>\r\n                    <thead>\r\n                        <tr>\r\n                            <th>");
 #nullable restore
 #line 478 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_VariableColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_VariableColumn);
 
 #line default
 #line hidden
@@ -1004,7 +1005,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                            <th>");
 #nullable restore
 #line 479 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_ValueColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_ValueColumn);
 
 #line default
 #line hidden
@@ -1055,7 +1056,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <p>");
 #nullable restore
 #line 495 "ErrorPage.cshtml"
-              Write(Resources.ErrorPageHtml_NoCookieData);
+              Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NoCookieData);
 
 #line default
 #line hidden
@@ -1080,7 +1081,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <table>\r\n                    <thead>\r\n                        <tr>\r\n                            <th>");
 #nullable restore
 #line 505 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_VariableColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_VariableColumn);
 
 #line default
 #line hidden
@@ -1088,7 +1089,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                            <th>");
 #nullable restore
 #line 506 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_ValueColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_ValueColumn);
 
 #line default
 #line hidden
@@ -1142,7 +1143,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <p>");
 #nullable restore
 #line 525 "ErrorPage.cshtml"
-              Write(Resources.ErrorPageHtml_NoHeaderData);
+              Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NoHeaderData);
 
 #line default
 #line hidden
@@ -1158,7 +1159,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("        </div>\r\n\r\n        <div id=\"routingpage\" class=\"page\">\r\n            <h2 class=\"subheader\">");
 #nullable restore
 #line 530 "ErrorPage.cshtml"
-                             Write(Resources.ErrorPageHtml_Endpoint);
+                             Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_Endpoint);
 
 #line default
 #line hidden
@@ -1175,7 +1176,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <table>\r\n                    <thead>\r\n                        <tr>\r\n                            <th>");
 #nullable restore
 #line 536 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_NameColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NameColumn);
 
 #line default
 #line hidden
@@ -1183,7 +1184,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                            <th>");
 #nullable restore
 #line 537 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_ValueColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_ValueColumn);
 
 #line default
 #line hidden
@@ -1191,7 +1192,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr>\r\n                            <td>");
 #nullable restore
 #line 542 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_EndpointDisplayName);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_EndpointDisplayName);
 
 #line default
 #line hidden
@@ -1216,7 +1217,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                            <tr>\r\n                                <td>");
 #nullable restore
 #line 548 "ErrorPage.cshtml"
-                               Write(Resources.ErrorPageHtml_EndpointRoutePattern);
+                               Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_EndpointRoutePattern);
 
 #line default
 #line hidden
@@ -1248,7 +1249,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                            <tr>\r\n                                <td>");
 #nullable restore
 #line 555 "ErrorPage.cshtml"
-                               Write(Resources.ErrorPageHtml_EndpointRouteOrder);
+                               Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_EndpointRouteOrder);
 
 #line default
 #line hidden
@@ -1280,7 +1281,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                            <tr>\r\n                                <td>");
 #nullable restore
 #line 562 "ErrorPage.cshtml"
-                               Write(Resources.ErrorPageHtml_EndpointRouteHttpMethod);
+                               Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_EndpointRouteHttpMethod);
 
 #line default
 #line hidden
@@ -1314,7 +1315,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <p>");
 #nullable restore
 #line 571 "ErrorPage.cshtml"
-              Write(Resources.ErrorPageHtml_NoEndpoint);
+              Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NoEndpoint);
 
 #line default
 #line hidden
@@ -1330,7 +1331,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("            <h2 class=\"subheader\">");
 #nullable restore
 #line 573 "ErrorPage.cshtml"
-                             Write(Resources.ErrorPageHtml_RouteValues);
+                             Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_RouteValues);
 
 #line default
 #line hidden
@@ -1347,7 +1348,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <table>\r\n                    <thead>\r\n                        <tr>\r\n                            <th>");
 #nullable restore
 #line 579 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_VariableColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_VariableColumn);
 
 #line default
 #line hidden
@@ -1355,7 +1356,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("</th>\r\n                            <th>");
 #nullable restore
 #line 580 "ErrorPage.cshtml"
-                           Write(Resources.ErrorPageHtml_ValueColumn);
+                           Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_ValueColumn);
 
 #line default
 #line hidden
@@ -1406,7 +1407,7 @@ WriteAttributeValue("", 12016, exceptionDetailId, 12016, 18, false);
             WriteLiteral("                <p>");
 #nullable restore
 #line 596 "ErrorPage.cshtml"
-              Write(Resources.ErrorPageHtml_NoRouteValues);
+              Write(Jokersoft.AspNetCore.Diagnostics.Resources.ErrorPageHtml_NoRouteValues);
 
 #line default
 #line hidden

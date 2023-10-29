@@ -8,6 +8,7 @@ using System.IO.Pipelines;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Jokersoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Net.Http.Headers;
 

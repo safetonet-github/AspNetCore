@@ -28,8 +28,7 @@ public static class SignalRDependencyInjectionExtensions
         services.TryAddSingleton(typeof(HubConnectionHandler<>), typeof(HubConnectionHandler<>));
         services.TryAddSingleton(typeof(IUserIdProvider), typeof(DefaultUserIdProvider));
         services.TryAddSingleton(typeof(HubDispatcher<>), typeof(DefaultHubDispatcher<>));
-        services.TryAddScoped(typeof(IHubActivator<>), typeof(DefaultHubActivator<>));
-        services.AddAuthorization();
+        services.TryAddScoped(typeof(IHubActivator<>), typeof(DefaultHubActivator<>));        
 
         var builder = new SignalRServerBuilder(services);
         builder.AddJsonProtocol();

@@ -5,7 +5,6 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading.Channels;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Internal;
@@ -27,7 +26,7 @@ internal sealed class HubMethodDescriptor
     // bitset to store which parameters come from DI up to 64 arguments
     private ulong _isServiceArgument;
 
-    public HubMethodDescriptor(ObjectMethodExecutor methodExecutor, IServiceProviderIsService? serviceProviderIsService, IEnumerable<IAuthorizeData> policies)
+    public HubMethodDescriptor(ObjectMethodExecutor methodExecutor, IServiceProviderIsService? serviceProviderIsService)
     {
         MethodExecutor = methodExecutor;
 
@@ -98,8 +97,6 @@ internal sealed class HubMethodDescriptor
         {
             OriginalParameterTypes = methodExecutor.MethodParameters.Select(p => p.ParameterType).ToArray();
         }
-
-        Policies = policies.ToArray();
     }
 
     public List<Type>? StreamingParameters { get; private set; }
@@ -115,8 +112,6 @@ internal sealed class HubMethodDescriptor
     public bool IsStreamResponse => StreamReturnType != null;
 
     public Type? StreamReturnType { get; }
-
-    public IList<IAuthorizeData> Policies { get; }
 
     public bool HasSyntheticArguments { get; private set; }
 

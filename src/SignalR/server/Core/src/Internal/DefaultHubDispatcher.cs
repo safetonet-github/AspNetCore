@@ -6,7 +6,6 @@ using System.Linq;
 using System.Reflection;
 using System.Security.Claims;
 using System.Threading.Channels;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Internal;
 using Microsoft.AspNetCore.SignalR.Protocol;
 using Microsoft.Extensions.DependencyInjection;
@@ -575,27 +574,17 @@ internal sealed partial class DefaultHubDispatcher<THub> : HubDispatcher<THub> w
 
     private static Task<bool> IsHubMethodAuthorized(IServiceProvider provider, HubConnectionContext hubConnectionContext, HubMethodDescriptor descriptor, object?[] hubMethodArguments, Hub hub)
     {
+        return TaskCache.True;
+
+        /*
         // If there are no policies we don't need to run auth
         if (descriptor.Policies.Count == 0)
         {
             return TaskCache.True;
         }
+        */
 
-        return IsHubMethodAuthorizedSlow(provider, hubConnectionContext.User, descriptor.Policies, new HubInvocationContext(hubConnectionContext.HubCallerContext, provider, hub, descriptor.MethodExecutor.MethodInfo, hubMethodArguments));
-    }
-
-    private static async Task<bool> IsHubMethodAuthorizedSlow(IServiceProvider provider, ClaimsPrincipal principal, IList<IAuthorizeData> policies, HubInvocationContext resource)
-    {
-        var authService = provider.GetRequiredService<IAuthorizationService>();
-        var policyProvider = provider.GetRequiredService<IAuthorizationPolicyProvider>();
-
-        var authorizePolicy = await AuthorizationPolicy.CombineAsync(policyProvider, policies);
-        // AuthorizationPolicy.CombineAsync only returns null if there are no policies and we check that above
-        Debug.Assert(authorizePolicy != null);
-
-        var authorizationResult = await authService.AuthorizeAsync(principal, resource, authorizePolicy);
-        // Only check authorization success, challenge or forbid wouldn't make sense from a hub method invocation
-        return authorizationResult.Succeeded;
+        //return IsHubMethodAuthorizedSlow(provider, hubConnectionContext.User, descriptor.Policies, new HubInvocationContext(hubConnectionContext.HubCallerContext, provider, hub, descriptor.MethodExecutor.MethodInfo, hubMethodArguments));
     }
 
     private async Task<bool> ValidateInvocationMode(HubMethodDescriptor hubMethodDescriptor, bool isStreamResponse,
@@ -704,9 +693,8 @@ internal sealed partial class DefaultHubDispatcher<THub> : HubDispatcher<THub> w
                 throw new NotSupportedException($"Duplicate definitions of '{methodName}'. Overloading is not supported.");
             }
 
-            var executor = ObjectMethodExecutor.Create(methodInfo, hubTypeInfo);
-            var authorizeAttributes = methodInfo.GetCustomAttributes<AuthorizeAttribute>(inherit: true);
-            _methods[methodName] = new HubMethodDescriptor(executor, serviceProviderIsService, authorizeAttributes);
+            var executor = ObjectMethodExecutor.Create(methodInfo, hubTypeInfo);            
+            _methods[methodName] = new HubMethodDescriptor(executor, serviceProviderIsService);
             _cachedMethodNames.Add(methodName);
 
             Log.HubMethodBound(_logger, hubName, methodName);

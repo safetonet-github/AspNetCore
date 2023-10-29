@@ -4,6 +4,7 @@
 #nullable disable
 
 using System.Diagnostics;
+using Jokersoft.AspNetCore.Routing;
 
 namespace Microsoft.AspNetCore.Routing.Patterns;
 

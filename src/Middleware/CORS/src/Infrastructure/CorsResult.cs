@@ -3,6 +3,7 @@
 
 using System.Globalization;
 using System.Text;
+using Jokersoft.AspNetCore.Cors;
 
 namespace Microsoft.AspNetCore.Cors.Infrastructure;
 

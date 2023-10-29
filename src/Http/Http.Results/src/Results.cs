@@ -5,7 +5,6 @@ using System.IO.Pipelines;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -18,63 +17,6 @@ namespace Microsoft.AspNetCore.Http;
 /// </summary>
 public static partial class Results
 {
-    /// <summary>
-    /// Creates an <see cref="IResult"/> that on execution invokes <see cref="AuthenticationHttpContextExtensions.ChallengeAsync(HttpContext, string?, AuthenticationProperties?)" />.
-    /// <para>
-    /// The behavior of this method depends on the <see cref="IAuthenticationService"/> in use.
-    /// <see cref="StatusCodes.Status401Unauthorized"/> and <see cref="StatusCodes.Status403Forbidden"/>
-    /// are among likely status results.
-    /// </para>
-    /// </summary>
-    /// <param name="properties"><see cref="AuthenticationProperties"/> used to perform the authentication
-    /// challenge.</param>
-    /// <param name="authenticationSchemes">The authentication schemes to challenge.</param>
-    /// <returns>The created <see cref="IResult"/> for the response.</returns>
-    public static IResult Challenge(
-        AuthenticationProperties? properties = null,
-        IList<string>? authenticationSchemes = null)
-        => TypedResults.Challenge(properties, authenticationSchemes);
-
-    /// <summary>
-    /// Creates a <see cref="IResult"/> that on execution invokes <see cref="AuthenticationHttpContextExtensions.ForbidAsync(HttpContext, string?, AuthenticationProperties?)"/>.
-    /// <para>
-    /// By default, executing this result returns a <see cref="StatusCodes.Status403Forbidden"/>. Some authentication schemes, such as cookies,
-    /// will convert <see cref="StatusCodes.Status403Forbidden"/> to a redirect to show a login page.
-    /// </para>
-    /// </summary>
-    /// <param name="properties"><see cref="AuthenticationProperties"/> used to perform the authentication
-    /// challenge.</param>
-    /// <param name="authenticationSchemes">The authentication schemes to challenge.</param>
-    /// <returns>The created <see cref="IResult"/> for the response.</returns>
-    /// <remarks>
-    /// Some authentication schemes, such as cookies, will convert <see cref="StatusCodes.Status403Forbidden"/> to
-    /// a redirect to show a login page.
-    /// </remarks>
-    public static IResult Forbid(AuthenticationProperties? properties = null, IList<string>? authenticationSchemes = null)
-        => TypedResults.Forbid(properties, authenticationSchemes);
-
-    /// <summary>
-    /// Creates an <see cref="IResult"/> that on execution invokes <see cref="AuthenticationHttpContextExtensions.SignInAsync(HttpContext, string?, ClaimsPrincipal, AuthenticationProperties?)" />.
-    /// </summary>
-    /// <param name="principal">The <see cref="ClaimsPrincipal"/> containing the user claims.</param>
-    /// <param name="properties"><see cref="AuthenticationProperties"/> used to perform the sign-in operation.</param>
-    /// <param name="authenticationScheme">The authentication scheme to use for the sign-in operation.</param>
-    /// <returns>The created <see cref="IResult"/> for the response.</returns>
-    public static IResult SignIn(
-        ClaimsPrincipal principal,
-        AuthenticationProperties? properties = null,
-        string? authenticationScheme = null)
-        => TypedResults.SignIn(principal, properties, authenticationScheme);
-
-    /// <summary>
-    /// Creates an <see cref="IResult"/> that on execution invokes <see cref="AuthenticationHttpContextExtensions.SignOutAsync(HttpContext, string?, AuthenticationProperties?)" />.
-    /// </summary>
-    /// <param name="properties"><see cref="AuthenticationProperties"/> used to perform the sign-out operation.</param>
-    /// <param name="authenticationSchemes">The authentication scheme to use for the sign-out operation.</param>
-    /// <returns>The created <see cref="IResult"/> for the response.</returns>
-    public static IResult SignOut(AuthenticationProperties? properties = null, IList<string>? authenticationSchemes = null)
-        => TypedResults.SignOut(properties, authenticationSchemes);
-
     /// <summary>
     /// Writes the <paramref name="content"/> string to the HTTP response.
     /// <para>

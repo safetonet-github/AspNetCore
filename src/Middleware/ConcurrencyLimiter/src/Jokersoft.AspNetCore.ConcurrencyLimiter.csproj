@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core middleware for queuing incoming HTTP requests, to avoid threadpool starvation.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;queue;queuing</PackageTags>
+    <Nullable>enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Options" />
+    <Reference Include="System.Threading.RateLimiting" />
+    <Compile Include="$(SharedSourceRoot)ValueStopwatch\*.cs" />
+  </ItemGroup>
+</Project>

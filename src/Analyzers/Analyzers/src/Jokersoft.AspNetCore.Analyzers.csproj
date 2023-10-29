@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>CSharp Analyzers for ASP.NET Core.</Description>
+    <PackageTags>aspnetcore</PackageTags>
+    <IsShippingPackage>false</IsShippingPackage>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!--<NuspecFile>$(MSBuildProjectName).nuspec</NuspecFile>-->
+    <Nullable>Enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" PrivateAssets="All" IsImplicitlyDefined="true" Version="$(Analyzer_MicrosoftCodeAnalysisCSharpVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <NuspecProperty Include="OutputBinary=$(OutputPath)$(AssemblyName).dll" />
+    <NuspecProperty Include="OutputSymbol=$(OutputPath)$(AssemblyName).pdb" />
+  </ItemGroup>
+</Project>

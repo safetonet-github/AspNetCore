@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>CSharp CodeFixes for ASP.NET Core.</Description>
+    <IsShippingPackage>false</IsShippingPackage>
+    <IsAnalyzersProject>true</IsAnalyzersProject>
+    <AddPublicApiAnalyzers>false</AddPublicApiAnalyzers>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <Nullable>Enable</Nullable>
+    <RootNamespace>Jokersoft.AspNetCore.Analyzers</RootNamespace>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" PrivateAssets="All" />
+    <ProjectReference Include="..\Analyzers\Jokersoft.AspNetCore.App.Analyzers.csproj" />
+  </ItemGroup>
+</Project>

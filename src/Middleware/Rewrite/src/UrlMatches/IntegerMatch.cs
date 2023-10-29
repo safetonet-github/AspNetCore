@@ -3,6 +3,7 @@
 
 using System.Diagnostics;
 using System.Globalization;
+using Jokersoft.AspNetCore.Rewrite;
 
 namespace Microsoft.AspNetCore.Rewrite.UrlMatches;
 

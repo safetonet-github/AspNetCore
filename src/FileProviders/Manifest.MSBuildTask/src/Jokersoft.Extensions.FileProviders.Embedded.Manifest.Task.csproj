@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>MSBuild task to generate a manifest that can be used by Jokersoft.Extensions.FileProviders.Embedded to preserve
+    metadata of the files embedded in the assembly at compilation time.</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <IsShippingAssembly>true</IsShippingAssembly>
+    <IsPackable>true</IsPackable>
+    <IsImplementationProject>false</IsImplementationProject>
+    <ExcludeFromSourceBuild>false</ExcludeFromSourceBuild>
+    <Nullable>enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Utilities.Core" />
+  </ItemGroup>
+</Project>

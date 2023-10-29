@@ -4,6 +4,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Security.Claims;
 using System.Security.Principal;
+using Jokersoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Http;
 
 namespace Microsoft.AspNetCore.Antiforgery;

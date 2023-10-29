@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Components for providing real-time bi-directional communication across the Web.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsPackable>true</IsPackable>
+    <Nullable>enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(SignalRSharedSourceRoot)AwaitableThreadPool.cs" Link="AwaitableThreadPool.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)MemoryBufferWriter.cs" Link="MemoryBufferWriter.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)PipeWriterStream.cs" Link="PipeWriterStream.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)WebSocketExtensions.cs" Link="WebSocketExtensions.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)StreamExtensions.cs" Link="StreamExtensions.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)DuplexPipe.cs" Link="DuplexPipe.cs" />
+    <Compile Include="$(SignalRSharedSourceRoot)TaskCache.cs" Link="Internal\TaskCache.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SharedSourceRoot)SecurityHelper\**\*.cs" />
+    <Compile Include="$(SharedSourceRoot)WebEncoders\**\*.cs" />
+    <Compile Include="$(SharedSourceRoot)ValueTaskExtensions\**\*.cs" />
+    <Compile Include="$(SharedSourceRoot)NonCapturingTimer\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Hosting.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Connections.Common" />
+    <Reference Include="Jokersoft.AspNetCore.Http" />
+    <Reference Include="Jokersoft.AspNetCore.Routing" />
+    <Reference Include="Jokersoft.AspNetCore.WebSockets" />
+    <Compile Include="$(SharedSourceRoot)ValueStopwatch\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Jokersoft.AspNetCore.Http.Connections.Tests" />
+  </ItemGroup>
+</Project>

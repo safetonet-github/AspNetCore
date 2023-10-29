@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Xml;
 using System.Xml.Linq;
+using Jokersoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Cryptography;
 using Microsoft.AspNetCore.Cryptography.Cng;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;

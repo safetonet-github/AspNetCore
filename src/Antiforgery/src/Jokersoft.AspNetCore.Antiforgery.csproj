@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>An antiforgery system for ASP.NET Core designed to generate and validate tokens to prevent Cross-Site Request Forgery attacks.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;antiforgery</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.DataProtection" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Jokersoft.AspNetCore.WebUtilities" />
+    <Reference Include="Jokersoft.Extensions.ObjectPool" />
+  </ItemGroup>
+</Project>

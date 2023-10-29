@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core middleware for returning the results of Health Checks in the application</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>diagnostics;healthchecks</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Routing" />
+    <Reference Include="Jokersoft.Extensions.Diagnostics.HealthChecks" />
+    <Reference Include="Microsoft.Extensions.Options" />
+    <Reference Include="Jokersoft.Net.Http.Headers" />
+  </ItemGroup>
+</Project>

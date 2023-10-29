@@ -5,38 +5,37 @@
 -->
 <Project>
   <ItemGroup>
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Caching.SqlServer" ProjectPath="$(RepoRoot)src\Caching\SqlServer\src\Microsoft.Extensions.Caching.SqlServer.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Caching.StackExchangeRedis" ProjectPath="$(RepoRoot)src\Caching\StackExchangeRedis\src\Microsoft.Extensions.Caching.StackExchangeRedis.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore" ProjectPath="$(RepoRoot)src\DefaultBuilder\src\Microsoft.AspNetCore.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.JsonPatch" ProjectPath="$(RepoRoot)src\Features\JsonPatch\src\Microsoft.AspNetCore.JsonPatch.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.DataProtection.Abstractions" ProjectPath="$(RepoRoot)src\DataProtection\Abstractions\src\Microsoft.AspNetCore.DataProtection.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Cryptography.Internal" ProjectPath="$(RepoRoot)src\DataProtection\Cryptography.Internal\src\Microsoft.AspNetCore.Cryptography.Internal.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" ProjectPath="$(RepoRoot)src\DataProtection\Cryptography.KeyDerivation\src\Microsoft.AspNetCore.Cryptography.KeyDerivation.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.DataProtection" ProjectPath="$(RepoRoot)src\DataProtection\DataProtection\src\Microsoft.AspNetCore.DataProtection.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.DataProtection.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\DataProtection\EntityFrameworkCore\src\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.DataProtection.Extensions" ProjectPath="$(RepoRoot)src\DataProtection\Extensions\src\Microsoft.AspNetCore.DataProtection.Extensions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" ProjectPath="$(RepoRoot)src\DataProtection\StackExchangeRedis\src\Microsoft.AspNetCore.DataProtection.StackExchangeRedis.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Antiforgery" ProjectPath="$(RepoRoot)src\Antiforgery\src\Microsoft.AspNetCore.Antiforgery.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Hosting.Abstractions" ProjectPath="$(RepoRoot)src\Hosting\Abstractions\src\Microsoft.AspNetCore.Hosting.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Hosting" ProjectPath="$(RepoRoot)src\Hosting\Hosting\src\Microsoft.AspNetCore.Hosting.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" ProjectPath="$(RepoRoot)src\Hosting\Server.Abstractions\src\Microsoft.AspNetCore.Hosting.Server.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Caching.StackExchangeRedis" ProjectPath="$(RepoRoot)src\Caching\StackExchangeRedis\src\Jokersoft.Extensions.Caching.StackExchangeRedis.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore" ProjectPath="$(RepoRoot)src\DefaultBuilder\src\Jokersoft.AspNetCore.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.JsonPatch" ProjectPath="$(RepoRoot)src\Features\JsonPatch\src\Jokersoft.AspNetCore.JsonPatch.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.DataProtection.Abstractions" ProjectPath="$(RepoRoot)src\DataProtection\Abstractions\src\Jokersoft.AspNetCore.DataProtection.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Cryptography.Internal" ProjectPath="$(RepoRoot)src\DataProtection\Cryptography.Internal\src\Jokersoft.AspNetCore.Cryptography.Internal.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Cryptography.KeyDerivation" ProjectPath="$(RepoRoot)src\DataProtection\Cryptography.KeyDerivation\src\Jokersoft.AspNetCore.Cryptography.KeyDerivation.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.DataProtection" ProjectPath="$(RepoRoot)src\DataProtection\DataProtection\src\Jokersoft.AspNetCore.DataProtection.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.DataProtection.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\DataProtection\EntityFrameworkCore\src\Jokersoft.AspNetCore.DataProtection.EntityFrameworkCore.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.DataProtection.Extensions" ProjectPath="$(RepoRoot)src\DataProtection\Extensions\src\Jokersoft.AspNetCore.DataProtection.Extensions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.DataProtection.StackExchangeRedis" ProjectPath="$(RepoRoot)src\DataProtection\StackExchangeRedis\src\Jokersoft.AspNetCore.DataProtection.StackExchangeRedis.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Antiforgery" ProjectPath="$(RepoRoot)src\Antiforgery\src\Jokersoft.AspNetCore.Antiforgery.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Hosting.Abstractions" ProjectPath="$(RepoRoot)src\Hosting\Abstractions\src\Jokersoft.AspNetCore.Hosting.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Hosting" ProjectPath="$(RepoRoot)src\Hosting\Hosting\src\Jokersoft.AspNetCore.Hosting.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Hosting.Server.Abstractions" ProjectPath="$(RepoRoot)src\Hosting\Server.Abstractions\src\Jokersoft.AspNetCore.Hosting.Server.Abstractions.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.TestHost" ProjectPath="$(RepoRoot)src\Hosting\TestHost\src\Microsoft.AspNetCore.TestHost.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Hosting.WindowsServices" ProjectPath="$(RepoRoot)src\Hosting\WindowsServices\src\Microsoft.AspNetCore.Hosting.WindowsServices.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Hosting.WindowsServices" ProjectPath="$(RepoRoot)src\Hosting\WindowsServices\src\Jokersoft.AspNetCore.Hosting.WindowsServices.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication.Abstractions" ProjectPath="$(RepoRoot)src\Http\Authentication.Abstractions\src\Microsoft.AspNetCore.Authentication.Abstractions.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication.Core" ProjectPath="$(RepoRoot)src\Http\Authentication.Core\src\Microsoft.AspNetCore.Authentication.Core.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Net.Http.Headers" ProjectPath="$(RepoRoot)src\Http\Headers\src\Microsoft.Net.Http.Headers.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Abstractions" ProjectPath="$(RepoRoot)src\Http\Http.Abstractions\src\Microsoft.AspNetCore.Http.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Extensions" ProjectPath="$(RepoRoot)src\Http\Http.Extensions\src\Microsoft.AspNetCore.Http.Extensions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Features" ProjectPath="$(RepoRoot)src\Http\Http.Features\src\Microsoft.AspNetCore.Http.Features.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Results" ProjectPath="$(RepoRoot)src\Http\Http.Results\src\Microsoft.AspNetCore.Http.Results.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http" ProjectPath="$(RepoRoot)src\Http\Http\src\Microsoft.AspNetCore.Http.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Metadata" ProjectPath="$(RepoRoot)src\Http\Metadata\src\Microsoft.AspNetCore.Metadata.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Owin" ProjectPath="$(RepoRoot)src\Http\Owin\src\Microsoft.AspNetCore.Owin.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Routing.Abstractions" ProjectPath="$(RepoRoot)src\Http\Routing.Abstractions\src\Microsoft.AspNetCore.Routing.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Routing" ProjectPath="$(RepoRoot)src\Http\Routing\src\Microsoft.AspNetCore.Routing.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.WebUtilities" ProjectPath="$(RepoRoot)src\Http\WebUtilities\src\Microsoft.AspNetCore.WebUtilities.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Http.Polly" ProjectPath="$(RepoRoot)src\HttpClientFactory\Polly\src\Microsoft.Extensions.Http.Polly.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Html.Abstractions" ProjectPath="$(RepoRoot)src\Html.Abstractions\src\Microsoft.AspNetCore.Html.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Net.Http.Headers" ProjectPath="$(RepoRoot)src\Http\Headers\src\Jokersoft.Net.Http.Headers.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Abstractions" ProjectPath="$(RepoRoot)src\Http\Http.Abstractions\src\Jokersoft.AspNetCore.Http.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Extensions" ProjectPath="$(RepoRoot)src\Http\Http.Extensions\src\Jokersoft.AspNetCore.Http.Extensions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Features" ProjectPath="$(RepoRoot)src\Http\Http.Features\src\Jokersoft.AspNetCore.Http.Features.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Results" ProjectPath="$(RepoRoot)src\Http\Http.Results\src\Jokersoft.AspNetCore.Http.Results.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http" ProjectPath="$(RepoRoot)src\Http\Http\src\Jokersoft.AspNetCore.Http.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Metadata" ProjectPath="$(RepoRoot)src\Http\Metadata\src\Jokersoft.AspNetCore.Metadata.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Owin" ProjectPath="$(RepoRoot)src\Http\Owin\src\Jokersoft.AspNetCore.Owin.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Routing.Abstractions" ProjectPath="$(RepoRoot)src\Http\Routing.Abstractions\src\Jokersoft.AspNetCore.Routing.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Routing" ProjectPath="$(RepoRoot)src\Http\Routing\src\Jokersoft.AspNetCore.Routing.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.WebUtilities" ProjectPath="$(RepoRoot)src\Http\WebUtilities\src\Jokersoft.AspNetCore.WebUtilities.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Http.Polly" ProjectPath="$(RepoRoot)src\HttpClientFactory\Polly\src\Jokersoft.Extensions.Http.Polly.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Html.Abstractions" ProjectPath="$(RepoRoot)src\Html.Abstractions\src\Jokersoft.AspNetCore.Html.Abstractions.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" ProjectPath="$(RepoRoot)src\Identity\ApiAuthorization.IdentityServer\src\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Identity" ProjectPath="$(RepoRoot)src\Identity\Core\src\Microsoft.AspNetCore.Identity.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\Identity\EntityFrameworkCore\src\Microsoft.AspNetCore.Identity.EntityFrameworkCore.csproj" />
@@ -44,14 +43,14 @@
     <ProjectReferenceProvider Include="Microsoft.Extensions.Identity.Stores" ProjectPath="$(RepoRoot)src\Identity\Extensions.Stores\src\Microsoft.Extensions.Identity.Stores.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Identity.Specification.Tests" ProjectPath="$(RepoRoot)src\Identity\Specification.Tests\src\Microsoft.AspNetCore.Identity.Specification.Tests.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Identity.UI" ProjectPath="$(RepoRoot)src\Identity\UI\src\Microsoft.AspNetCore.Identity.UI.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Connections.Abstractions" ProjectPath="$(RepoRoot)src\Servers\Connections.Abstractions\src\Microsoft.AspNetCore.Connections.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Connections.Abstractions" ProjectPath="$(RepoRoot)src\Servers\Connections.Abstractions\src\Jokersoft.AspNetCore.Connections.Abstractions.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.HttpSys" ProjectPath="$(RepoRoot)src\Servers\HttpSys\src\Microsoft.AspNetCore.Server.HttpSys.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.IISIntegration" ProjectPath="$(RepoRoot)src\Servers\IIS\IISIntegration\src\Microsoft.AspNetCore.Server.IISIntegration.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.IIS" ProjectPath="$(RepoRoot)src\Servers\IIS\IIS\src\Microsoft.AspNetCore.Server.IIS.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.Kestrel.Core" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Core\src\Microsoft.AspNetCore.Server.Kestrel.Core.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.Kestrel" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Kestrel\src\Microsoft.AspNetCore.Server.Kestrel.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Server.Kestrel.Core" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Core\src\Jokersoft.AspNetCore.Server.Kestrel.Core.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Server.Kestrel" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Kestrel\src\Jokersoft.AspNetCore.Server.Kestrel.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Quic" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Transport.Quic\src\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Transport.Sockets\src\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Server.Kestrel.Transport.Sockets" ProjectPath="$(RepoRoot)src\Servers\Kestrel\Transport.Sockets\src\Jokersoft.AspNetCore.Server.Kestrel.Transport.Sockets.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication.Certificate" ProjectPath="$(RepoRoot)src\Security\Authentication\Certificate\src\Microsoft.AspNetCore.Authentication.Certificate.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication.Cookies" ProjectPath="$(RepoRoot)src\Security\Authentication\Cookies\src\Microsoft.AspNetCore.Authentication.Cookies.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication" ProjectPath="$(RepoRoot)src\Security\Authentication\Core\src\Microsoft.AspNetCore.Authentication.csproj" />
@@ -66,41 +65,41 @@
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authentication.WsFederation" ProjectPath="$(RepoRoot)src\Security\Authentication\WsFederation\src\Microsoft.AspNetCore.Authentication.WsFederation.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authorization" ProjectPath="$(RepoRoot)src\Security\Authorization\Core\src\Microsoft.AspNetCore.Authorization.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Authorization.Policy" ProjectPath="$(RepoRoot)src\Security\Authorization\Policy\src\Microsoft.AspNetCore.Authorization.Policy.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.CookiePolicy" ProjectPath="$(RepoRoot)src\Security\CookiePolicy\src\Microsoft.AspNetCore.CookiePolicy.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Web.Xdt.Extensions" ProjectPath="$(RepoRoot)src\SiteExtensions\Microsoft.Web.Xdt.Extensions\src\Microsoft.Web.Xdt.Extensions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.CookiePolicy" ProjectPath="$(RepoRoot)src\Security\CookiePolicy\src\Jokersoft.AspNetCore.CookiePolicy.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Web.Xdt.Extensions" ProjectPath="$(RepoRoot)src\SiteExtensions\Microsoft.Web.Xdt.Extensions\src\Jokersoft.Web.Xdt.Extensions.csproj" />
     <ProjectReferenceProvider Include="dotnet-getdocument" ProjectPath="$(RepoRoot)src\Tools\dotnet-getdocument\src\dotnet-getdocument.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.ApiDescription.Client" ProjectPath="$(RepoRoot)src\Tools\Extensions.ApiDescription.Client\src\Microsoft.Extensions.ApiDescription.Client.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.ApiDescription.Server" ProjectPath="$(RepoRoot)src\Tools\Extensions.ApiDescription.Server\src\Microsoft.Extensions.ApiDescription.Server.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.DeveloperCertificates.XPlat" ProjectPath="$(RepoRoot)src\Tools\FirstRunCertGenerator\src\Microsoft.AspNetCore.DeveloperCertificates.XPlat.csproj" />
     <ProjectReferenceProvider Include="GetDocument.Insider" ProjectPath="$(RepoRoot)src\Tools\GetDocumentInsider\src\GetDocument.Insider.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Logging.AzureAppServices" ProjectPath="$(RepoRoot)src\Logging.AzureAppServices\src\Microsoft.Extensions.Logging.AzureAppServices.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.ConcurrencyLimiter" ProjectPath="$(RepoRoot)src\Middleware\ConcurrencyLimiter\src\Microsoft.AspNetCore.ConcurrencyLimiter.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Cors" ProjectPath="$(RepoRoot)src\Middleware\CORS\src\Microsoft.AspNetCore.Cors.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Diagnostics.Abstractions" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics.Abstractions\src\Microsoft.AspNetCore.Diagnostics.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics.EntityFrameworkCore\src\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Diagnostics" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics\src\Microsoft.AspNetCore.Diagnostics.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.HeaderPropagation" ProjectPath="$(RepoRoot)src\Middleware\HeaderPropagation\src\Microsoft.AspNetCore.HeaderPropagation.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\Middleware\HealthChecks.EntityFrameworkCore\src\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" ProjectPath="$(RepoRoot)src\Middleware\HealthChecks\src\Microsoft.AspNetCore.Diagnostics.HealthChecks.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.HostFiltering" ProjectPath="$(RepoRoot)src\Middleware\HostFiltering\src\Microsoft.AspNetCore.HostFiltering.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.HttpLogging" ProjectPath="$(RepoRoot)src\Middleware\HttpLogging\src\Microsoft.AspNetCore.HttpLogging.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.HttpOverrides" ProjectPath="$(RepoRoot)src\Middleware\HttpOverrides\src\Microsoft.AspNetCore.HttpOverrides.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.HttpsPolicy" ProjectPath="$(RepoRoot)src\Middleware\HttpsPolicy\src\Microsoft.AspNetCore.HttpsPolicy.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Localization.Routing" ProjectPath="$(RepoRoot)src\Middleware\Localization.Routing\src\Microsoft.AspNetCore.Localization.Routing.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Localization" ProjectPath="$(RepoRoot)src\Middleware\Localization\src\Microsoft.AspNetCore.Localization.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.MiddlewareAnalysis" ProjectPath="$(RepoRoot)src\Middleware\MiddlewareAnalysis\src\Microsoft.AspNetCore.MiddlewareAnalysis.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.OutputCaching" ProjectPath="$(RepoRoot)src\Middleware\OutputCaching\src\Microsoft.AspNetCore.OutputCaching.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.RateLimiting" ProjectPath="$(RepoRoot)src\Middleware\RateLimiting\src\Microsoft.AspNetCore.RateLimiting.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.RequestDecompression" ProjectPath="$(RepoRoot)src\Middleware\RequestDecompression\src\Microsoft.AspNetCore.RequestDecompression.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.ResponseCaching.Abstractions" ProjectPath="$(RepoRoot)src\Middleware\ResponseCaching.Abstractions\src\Microsoft.AspNetCore.ResponseCaching.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.ResponseCaching" ProjectPath="$(RepoRoot)src\Middleware\ResponseCaching\src\Microsoft.AspNetCore.ResponseCaching.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.ResponseCompression" ProjectPath="$(RepoRoot)src\Middleware\ResponseCompression\src\Microsoft.AspNetCore.ResponseCompression.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Rewrite" ProjectPath="$(RepoRoot)src\Middleware\Rewrite\src\Microsoft.AspNetCore.Rewrite.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Session" ProjectPath="$(RepoRoot)src\Middleware\Session\src\Microsoft.AspNetCore.Session.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.ConcurrencyLimiter" ProjectPath="$(RepoRoot)src\Middleware\ConcurrencyLimiter\src\Jokersoft.AspNetCore.ConcurrencyLimiter.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Cors" ProjectPath="$(RepoRoot)src\Middleware\CORS\src\Jokersoft.AspNetCore.Cors.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Diagnostics.Abstractions" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics.Abstractions\src\Jokersoft.AspNetCore.Diagnostics.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Diagnostics.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics.EntityFrameworkCore\src\Jokersoft.AspNetCore.Diagnostics.EntityFrameworkCore.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Diagnostics" ProjectPath="$(RepoRoot)src\Middleware\Diagnostics\src\Jokersoft.AspNetCore.Diagnostics.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.HeaderPropagation" ProjectPath="$(RepoRoot)src\Middleware\HeaderPropagation\src\Jokersoft.AspNetCore.HeaderPropagation.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" ProjectPath="$(RepoRoot)src\Middleware\HealthChecks.EntityFrameworkCore\src\Jokersoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Diagnostics.HealthChecks" ProjectPath="$(RepoRoot)src\Middleware\HealthChecks\src\Jokersoft.AspNetCore.Diagnostics.HealthChecks.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.HostFiltering" ProjectPath="$(RepoRoot)src\Middleware\HostFiltering\src\Jokersoft.AspNetCore.HostFiltering.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.HttpLogging" ProjectPath="$(RepoRoot)src\Middleware\HttpLogging\src\Jokersoft.AspNetCore.HttpLogging.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.HttpOverrides" ProjectPath="$(RepoRoot)src\Middleware\HttpOverrides\src\Jokersoft.AspNetCore.HttpOverrides.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.HttpsPolicy" ProjectPath="$(RepoRoot)src\Middleware\HttpsPolicy\src\Jokersoft.AspNetCore.HttpsPolicy.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Localization.Routing" ProjectPath="$(RepoRoot)src\Middleware\Localization.Routing\src\Jokersoft.AspNetCore.Localization.Routing.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Localization" ProjectPath="$(RepoRoot)src\Middleware\Localization\src\Jokersoft.AspNetCore.Localization.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.MiddlewareAnalysis" ProjectPath="$(RepoRoot)src\Middleware\MiddlewareAnalysis\src\Jokersoft.AspNetCore.MiddlewareAnalysis.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.OutputCaching" ProjectPath="$(RepoRoot)src\Middleware\OutputCaching\src\Jokersoft.AspNetCore.OutputCaching.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.RateLimiting" ProjectPath="$(RepoRoot)src\Middleware\RateLimiting\src\Jokersoft.AspNetCore.RateLimiting.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.RequestDecompression" ProjectPath="$(RepoRoot)src\Middleware\RequestDecompression\src\Jokersoft.AspNetCore.RequestDecompression.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.ResponseCaching.Abstractions" ProjectPath="$(RepoRoot)src\Middleware\ResponseCaching.Abstractions\src\Jokersoft.AspNetCore.ResponseCaching.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.ResponseCaching" ProjectPath="$(RepoRoot)src\Middleware\ResponseCaching\src\Jokersoft.AspNetCore.ResponseCaching.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.ResponseCompression" ProjectPath="$(RepoRoot)src\Middleware\ResponseCompression\src\Jokersoft.AspNetCore.ResponseCompression.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Rewrite" ProjectPath="$(RepoRoot)src\Middleware\Rewrite\src\Jokersoft.AspNetCore.Rewrite.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Session" ProjectPath="$(RepoRoot)src\Middleware\Session\src\Jokersoft.AspNetCore.Session.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.SpaProxy" ProjectPath="$(RepoRoot)src\Middleware\Spa\SpaProxy\src\Microsoft.AspNetCore.SpaProxy.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.SpaServices.Extensions" ProjectPath="$(RepoRoot)src\Middleware\Spa\SpaServices.Extensions\src\Microsoft.AspNetCore.SpaServices.Extensions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.StaticFiles" ProjectPath="$(RepoRoot)src\Middleware\StaticFiles\src\Microsoft.AspNetCore.StaticFiles.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.WebSockets" ProjectPath="$(RepoRoot)src\Middleware\WebSockets\src\Microsoft.AspNetCore.WebSockets.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.StaticFiles" ProjectPath="$(RepoRoot)src\Middleware\StaticFiles\src\Jokersoft.AspNetCore.StaticFiles.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.WebSockets" ProjectPath="$(RepoRoot)src\Middleware\WebSockets\src\Jokersoft.AspNetCore.WebSockets.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Razor.Runtime" ProjectPath="$(RepoRoot)src\Razor\Razor.Runtime\src\Microsoft.AspNetCore.Razor.Runtime.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Razor" ProjectPath="$(RepoRoot)src\Razor\Razor\src\Microsoft.AspNetCore.Razor.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Mvc.Abstractions" ProjectPath="$(RepoRoot)src\Mvc\Mvc.Abstractions\src\Microsoft.AspNetCore.Mvc.Abstractions.csproj" />
@@ -122,45 +121,45 @@
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Mvc" ProjectPath="$(RepoRoot)src\Mvc\Mvc\src\Microsoft.AspNetCore.Mvc.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.AzureAppServices.HostingStartup" ProjectPath="$(RepoRoot)src\Azure\AzureAppServices.HostingStartup\src\Microsoft.AspNetCore.AzureAppServices.HostingStartup.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.AzureAppServicesIntegration" ProjectPath="$(RepoRoot)src\Azure\AzureAppServicesIntegration\src\Microsoft.AspNetCore.AzureAppServicesIntegration.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Client.Core" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client.Core\src\Microsoft.AspNetCore.SignalR.Client.Core.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Client.SourceGenerator" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client.SourceGenerator\src\Microsoft.AspNetCore.SignalR.Client.SourceGenerator.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Client" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client\src\Microsoft.AspNetCore.SignalR.Client.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Connections.Client" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Http.Connections.Client\src\Microsoft.AspNetCore.Http.Connections.Client.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Connections.Common" ProjectPath="$(RepoRoot)src\SignalR\common\Http.Connections.Common\src\Microsoft.AspNetCore.Http.Connections.Common.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Http.Connections" ProjectPath="$(RepoRoot)src\SignalR\common\Http.Connections\src\Microsoft.AspNetCore.Http.Connections.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Protocols.Json" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.Json\src\Microsoft.AspNetCore.SignalR.Protocols.Json.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.MessagePack\src\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.NewtonsoftJson\src\Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Common" ProjectPath="$(RepoRoot)src\SignalR\common\SignalR.Common\src\Microsoft.AspNetCore.SignalR.Common.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Core" ProjectPath="$(RepoRoot)src\SignalR\server\Core\src\Microsoft.AspNetCore.SignalR.Core.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR" ProjectPath="$(RepoRoot)src\SignalR\server\SignalR\src\Microsoft.AspNetCore.SignalR.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Client.Core" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client.Core\src\Jokersoft.AspNetCore.SignalR.Client.Core.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Client.SourceGenerator" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client.SourceGenerator\src\Jokersoft.AspNetCore.SignalR.Client.SourceGenerator.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Client" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Client\src\Jokersoft.AspNetCore.SignalR.Client.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Connections.Client" ProjectPath="$(RepoRoot)src\SignalR\clients\csharp\Http.Connections.Client\src\Jokersoft.AspNetCore.Http.Connections.Client.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Connections.Common" ProjectPath="$(RepoRoot)src\SignalR\common\Http.Connections.Common\src\Jokersoft.AspNetCore.Http.Connections.Common.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Http.Connections" ProjectPath="$(RepoRoot)src\SignalR\common\Http.Connections\src\Jokersoft.AspNetCore.Http.Connections.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Protocols.Json" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.Json\src\Jokersoft.AspNetCore.SignalR.Protocols.Json.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Protocols.MessagePack" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.MessagePack\src\Jokersoft.AspNetCore.SignalR.Protocols.MessagePack.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" ProjectPath="$(RepoRoot)src\SignalR\common\Protocols.NewtonsoftJson\src\Jokersoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Common" ProjectPath="$(RepoRoot)src\SignalR\common\SignalR.Common\src\Jokersoft.AspNetCore.SignalR.Common.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.Core" ProjectPath="$(RepoRoot)src\SignalR\server\Core\src\Jokersoft.AspNetCore.SignalR.Core.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR" ProjectPath="$(RepoRoot)src\SignalR\server\SignalR\src\Jokersoft.AspNetCore.SignalR.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.Specification.Tests" ProjectPath="$(RepoRoot)src\SignalR\server\Specification.Tests\src\Microsoft.AspNetCore.SignalR.Specification.Tests.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" ProjectPath="$(RepoRoot)src\SignalR\server\StackExchangeRedis\src\Microsoft.AspNetCore.SignalR.StackExchangeRedis.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.SignalR.StackExchangeRedis" ProjectPath="$(RepoRoot)src\SignalR\server\StackExchangeRedis\src\Jokersoft.AspNetCore.SignalR.StackExchangeRedis.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.Authorization" ProjectPath="$(RepoRoot)src\Components\Authorization\src\Microsoft.AspNetCore.Components.Authorization.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components" ProjectPath="$(RepoRoot)src\Components\Components\src\Microsoft.AspNetCore.Components.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.CustomElements" ProjectPath="$(RepoRoot)src\Components\CustomElements\src\Microsoft.AspNetCore.Components.CustomElements.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.Forms" ProjectPath="$(RepoRoot)src\Components\Forms\src\Microsoft.AspNetCore.Components.Forms.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.Server" ProjectPath="$(RepoRoot)src\Components\Server\src\Microsoft.AspNetCore.Components.Server.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components" ProjectPath="$(RepoRoot)src\Components\Components\src\Jokersoft.AspNetCore.Components.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components.CustomElements" ProjectPath="$(RepoRoot)src\Components\CustomElements\src\Jokersoft.AspNetCore.Components.CustomElements.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components.Forms" ProjectPath="$(RepoRoot)src\Components\Forms\src\Jokersoft.AspNetCore.Components.Forms.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components.Server" ProjectPath="$(RepoRoot)src\Components\Server\src\Jokersoft.AspNetCore.Components.Server.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Authentication.WebAssembly.Msal" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Authentication.Msal\src\Microsoft.Authentication.WebAssembly.Msal.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.JSInterop.WebAssembly" ProjectPath="$(RepoRoot)src\Components\WebAssembly\JSInterop\src\Microsoft.JSInterop.WebAssembly.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly.Server" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Server\src\Microsoft.AspNetCore.Components.WebAssembly.Server.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.JSInterop.WebAssembly" ProjectPath="$(RepoRoot)src\Components\WebAssembly\JSInterop\src\Jokersoft.JSInterop.WebAssembly.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components.WebAssembly.Server" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Server\src\Jokersoft.AspNetCore.Components.WebAssembly.Server.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" ProjectPath="$(RepoRoot)src\Components\WebAssembly\WebAssembly.Authentication\src\Microsoft.AspNetCore.Components.WebAssembly.Authentication.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly" ProjectPath="$(RepoRoot)src\Components\WebAssembly\WebAssembly\src\Microsoft.AspNetCore.Components.WebAssembly.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebView" ProjectPath="$(RepoRoot)src\Components\WebView\WebView\src\Microsoft.AspNetCore.Components.WebView.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.Web" ProjectPath="$(RepoRoot)src\Components\Web\src\Microsoft.AspNetCore.Components.Web.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.FileProviders.Embedded" ProjectPath="$(RepoRoot)src\FileProviders\Embedded\src\Microsoft.Extensions.FileProviders.Embedded.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.KeyPerFile" ProjectPath="$(RepoRoot)src\Configuration.KeyPerFile\src\Microsoft.Extensions.Configuration.KeyPerFile.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Localization.Abstractions" ProjectPath="$(RepoRoot)src\Localization\Abstractions\src\Microsoft.Extensions.Localization.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Localization" ProjectPath="$(RepoRoot)src\Localization\Localization\src\Microsoft.Extensions.Localization.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.ObjectPool" ProjectPath="$(RepoRoot)src\ObjectPool\src\Microsoft.Extensions.ObjectPool.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.JSInterop" ProjectPath="$(RepoRoot)src\JSInterop\Microsoft.JSInterop\src\Microsoft.JSInterop.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.WebEncoders" ProjectPath="$(RepoRoot)src\WebEncoders\src\Microsoft.Extensions.WebEncoders.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" ProjectPath="$(RepoRoot)src\HealthChecks\Abstractions\src\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Diagnostics.HealthChecks" ProjectPath="$(RepoRoot)src\HealthChecks\HealthChecks\src\Microsoft.Extensions.Diagnostics.HealthChecks.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Components.Web" ProjectPath="$(RepoRoot)src\Components\Web\src\Jokersoft.AspNetCore.Components.Web.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.FileProviders.Embedded" ProjectPath="$(RepoRoot)src\FileProviders\Embedded\src\Jokersoft.Extensions.FileProviders.Embedded.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Configuration.KeyPerFile" ProjectPath="$(RepoRoot)src\Configuration.KeyPerFile\src\Jokersoft.Extensions.Configuration.KeyPerFile.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Localization.Abstractions" ProjectPath="$(RepoRoot)src\Localization\Abstractions\src\Jokersoft.Extensions.Localization.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Localization" ProjectPath="$(RepoRoot)src\Localization\Localization\src\Jokersoft.Extensions.Localization.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.ObjectPool" ProjectPath="$(RepoRoot)src\ObjectPool\src\Jokersoft.Extensions.ObjectPool.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.JSInterop" ProjectPath="$(RepoRoot)src\JSInterop\Microsoft.JSInterop\src\Jokersoft.JSInterop.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.WebEncoders" ProjectPath="$(RepoRoot)src\WebEncoders\src\Jokersoft.Extensions.WebEncoders.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Diagnostics.HealthChecks.Abstractions" ProjectPath="$(RepoRoot)src\HealthChecks\Abstractions\src\Jokersoft.Extensions.Diagnostics.HealthChecks.Abstractions.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Diagnostics.HealthChecks" ProjectPath="$(RepoRoot)src\HealthChecks\HealthChecks\src\Jokersoft.Extensions.Diagnostics.HealthChecks.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Testing" ProjectPath="$(RepoRoot)src\Testing\src\Microsoft.AspNetCore.Testing.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.Extensions.Features" ProjectPath="$(RepoRoot)src\Extensions\Features\src\Microsoft.Extensions.Features.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Grpc.JsonTranscoding" ProjectPath="$(RepoRoot)src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.JsonTranscoding\Microsoft.AspNetCore.Grpc.JsonTranscoding.csproj" />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Grpc.Swagger" ProjectPath="$(RepoRoot)src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.Swagger\Microsoft.AspNetCore.Grpc.Swagger.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.Extensions.Features" ProjectPath="$(RepoRoot)src\Extensions\Features\src\Jokersoft.Extensions.Features.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Grpc.JsonTranscoding" ProjectPath="$(RepoRoot)src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.JsonTranscoding\Jokersoft.AspNetCore.Grpc.JsonTranscoding.csproj" />
+    <ProjectReferenceProvider Include="Jokersoft.AspNetCore.Grpc.Swagger" ProjectPath="$(RepoRoot)src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.Swagger\Jokersoft.AspNetCore.Grpc.Swagger.csproj" />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.OpenApi" ProjectPath="$(RepoRoot)src\OpenApi\src\Microsoft.AspNetCore.OpenApi.csproj" />
   </ItemGroup>
 </Project>

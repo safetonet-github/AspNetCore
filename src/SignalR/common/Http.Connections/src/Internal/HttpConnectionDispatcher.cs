@@ -4,7 +4,6 @@
 using System.Buffers;
 using System.Security.Claims;
 using System.Security.Principal;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Http.Connections.Internal.Transports;
 using Microsoft.AspNetCore.Http.Features;
@@ -581,13 +580,7 @@ internal sealed partial class HttpConnectionDispatcher
 
     private static void UpdateExpiration(HttpConnectionContext connection, HttpContext context)
     {
-        var authenticateResultFeature = context.Features.Get<IAuthenticateResultFeature>();
-
-        if (authenticateResultFeature is not null)
-        {
-            connection.AuthenticationExpiration =
-                authenticateResultFeature.AuthenticateResult?.Properties?.ExpiresUtc ?? DateTimeOffset.MaxValue;
-        }
+        
     }
 
     private static void CloneUser(HttpContext newContext, HttpContext oldContext)

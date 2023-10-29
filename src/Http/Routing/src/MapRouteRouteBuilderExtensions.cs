@@ -4,6 +4,7 @@
 #nullable enable
 
 using System.Diagnostics.CodeAnalysis;
+using Jokersoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.Extensions.DependencyInjection;

@@ -3,6 +3,7 @@
 
 using System.Globalization;
 using System.Linq;
+using Jokersoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core basic middleware for rewriting URLs. Includes:
+* Support for custom URL rewrite rules
+* Support for running IIS URL Rewrite module rules
+* Support for running Apache mod_rewrite rules.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;urlrewrite;mod_rewrite</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Hosting.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Options" />
+    <Reference Include="Jokersoft.AspNetCore.Routing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SharedSourceRoot)Reroute.cs" />
+  </ItemGroup>
+</Project>

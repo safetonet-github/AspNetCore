@@ -44,7 +44,7 @@ WriteAttributeValue("", 148, System.Globalization.CultureInfo.CurrentUICulture.T
             WriteLiteral(">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <title>");
 #nullable restore
 #line 10 "WelcomePage.cshtml"
-      Write(Resources.WelcomeTitle);
+      Write(Jokersoft.AspNetCore.Diagnostics.Resources.WelcomeTitle);
 
 #line default
 #line hidden
@@ -217,7 +217,7 @@ WriteAttributeValue("", 148, System.Globalization.CultureInfo.CurrentUICulture.T
             BeginWriteAttribute("alt", "\r\n                    alt=\"", 7518, "\"", 7586, 1);
 #nullable restore
 #line 169 "WelcomePage.cshtml"
-WriteAttributeValue("", 7545, Resources.WelcomePageImageText_LightBulb, 7545, 41, false);
+WriteAttributeValue("", 7545, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 7545, 41, false);
 
 #line default
 #line hidden
@@ -226,7 +226,7 @@ WriteAttributeValue("", 7545, Resources.WelcomePageImageText_LightBulb, 7545, 41
             BeginWriteAttribute("title", " title=\"", 7587, "\"", 7636, 1);
 #nullable restore
 #line 169 "WelcomePage.cshtml"
-WriteAttributeValue("", 7595, Resources.WelcomePageImageText_LightBulb, 7595, 41, false);
+WriteAttributeValue("", 7595, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 7595, 41, false);
 
 #line default
 #line hidden
@@ -246,7 +246,7 @@ WriteAttributeValue("", 7595, Resources.WelcomePageImageText_LightBulb, 7595, 41
             BeginWriteAttribute("alt", "\r\n                     alt=\"", 16724, "\"", 16791, 1);
 #nullable restore
 #line 172 "WelcomePage.cshtml"
-WriteAttributeValue("", 16752, Resources.WelcomePageImageText_Browser, 16752, 39, false);
+WriteAttributeValue("", 16752, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_Browser, 16752, 39, false);
 
 #line default
 #line hidden
@@ -255,7 +255,7 @@ WriteAttributeValue("", 16752, Resources.WelcomePageImageText_Browser, 16752, 39
             BeginWriteAttribute("title", " title=\"", 16792, "\"", 16839, 1);
 #nullable restore
 #line 172 "WelcomePage.cshtml"
-WriteAttributeValue("", 16800, Resources.WelcomePageImageText_Browser, 16800, 39, false);
+WriteAttributeValue("", 16800, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_Browser, 16800, 39, false);
 
 #line default
 #line hidden
@@ -274,7 +274,7 @@ WriteAttributeValue("", 16800, Resources.WelcomePageImageText_Browser, 16800, 39
             BeginWriteAttribute("alt", "\r\n                    alt=\"", 23261, "\"", 23329, 1);
 #nullable restore
 #line 176 "WelcomePage.cshtml"
-WriteAttributeValue("", 23288, Resources.WelcomePageImageText_LightBulb, 23288, 41, false);
+WriteAttributeValue("", 23288, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 23288, 41, false);
 
 #line default
 #line hidden
@@ -283,7 +283,7 @@ WriteAttributeValue("", 23288, Resources.WelcomePageImageText_LightBulb, 23288, 
             BeginWriteAttribute("title", " title=\"", 23330, "\"", 23379, 1);
 #nullable restore
 #line 176 "WelcomePage.cshtml"
-WriteAttributeValue("", 23338, Resources.WelcomePageImageText_LightBulb, 23338, 41, false);
+WriteAttributeValue("", 23338, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 23338, 41, false);
 
 #line default
 #line hidden
@@ -302,7 +302,7 @@ WriteAttributeValue("", 23338, Resources.WelcomePageImageText_LightBulb, 23338, 
             BeginWriteAttribute("alt", "\r\n                     alt=\"", 31229, "\"", 31298, 1);
 #nullable restore
 #line 179 "WelcomePage.cshtml"
-WriteAttributeValue("", 31257, Resources.WelcomePageImageText_LightBulb, 31257, 41, false);
+WriteAttributeValue("", 31257, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 31257, 41, false);
 
 #line default
 #line hidden
@@ -311,7 +311,7 @@ WriteAttributeValue("", 31257, Resources.WelcomePageImageText_LightBulb, 31257, 
             BeginWriteAttribute("title", " title=\"", 31299, "\"", 31348, 1);
 #nullable restore
 #line 179 "WelcomePage.cshtml"
-WriteAttributeValue("", 31307, Resources.WelcomePageImageText_LightBulb, 31307, 41, false);
+WriteAttributeValue("", 31307, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LightBulb, 31307, 41, false);
 
 #line default
 #line hidden
@@ -337,7 +337,7 @@ WriteAttributeValue("", 31307, Resources.WelcomePageImageText_LightBulb, 31307, 
             BeginWriteAttribute("alt", "\r\n                    alt=\"", 46196, "\"", 46262, 1);
 #nullable restore
 #line 182 "WelcomePage.cshtml"
-WriteAttributeValue("", 46223, Resources.WelcomePageImageText_Skyline, 46223, 39, false);
+WriteAttributeValue("", 46223, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_Skyline, 46223, 39, false);
 
 #line default
 #line hidden
@@ -346,7 +346,7 @@ WriteAttributeValue("", 46223, Resources.WelcomePageImageText_Skyline, 46223, 39
             BeginWriteAttribute("title", " title=\"", 46263, "\"", 46310, 1);
 #nullable restore
 #line 182 "WelcomePage.cshtml"
-WriteAttributeValue("", 46271, Resources.WelcomePageImageText_Skyline, 46271, 39, false);
+WriteAttributeValue("", 46271, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_Skyline, 46271, 39, false);
 
 #line default
 #line hidden
@@ -355,7 +355,7 @@ WriteAttributeValue("", 46271, Resources.WelcomePageImageText_Skyline, 46271, 39
             WriteLiteral(" width=\"1212\" height=\"202\" /></div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"content\">\r\n        <div class=\"bodyHeadline\">");
 #nullable restore
 #line 187 "WelcomePage.cshtml"
-                             Write(Resources.WelcomeHeader);
+                             Write(Jokersoft.AspNetCore.Diagnostics.Resources.WelcomeHeader);
 
 #line default
 #line hidden
@@ -363,7 +363,7 @@ WriteAttributeValue("", 46271, Resources.WelcomePageImageText_Skyline, 46271, 39
             WriteLiteral("</div>\r\n        <div class=\"bodyContent\">");
 #nullable restore
 #line 188 "WelcomePage.cshtml"
-                            Write(Resources.WelcomeStarted);
+                            Write(Jokersoft.AspNetCore.Diagnostics.Resources.WelcomeStarted);
 
 #line default
 #line hidden
@@ -371,7 +371,7 @@ WriteAttributeValue("", 46271, Resources.WelcomePageImageText_Skyline, 46271, 39
             WriteLiteral("</div>\r\n        <a class=\"bodyCTA longer\" href=\"http://go.microsoft.com/fwlink/?LinkID=398596&amp;clcid=0x409\">");
 #nullable restore
 #line 189 "WelcomePage.cshtml"
-                                                                                                  Write(Resources.WelcomeLearnMicrosoftAspNet);
+                                                                                                  Write(Jokersoft.AspNetCore.Diagnostics.Resources.WelcomeLearnMicrosoftAspNet);
 
 #line default
 #line hidden
@@ -383,7 +383,7 @@ WriteAttributeValue("", 46271, Resources.WelcomePageImageText_Skyline, 46271, 39
             BeginWriteAttribute("alt", "\r\n                alt=\"", 49142, "\"", 49206, 1);
 #nullable restore
 #line 191 "WelcomePage.cshtml"
-WriteAttributeValue("", 49165, Resources.WelcomePageImageText_LearnMore, 49165, 41, false);
+WriteAttributeValue("", 49165, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LearnMore, 49165, 41, false);
 
 #line default
 #line hidden
@@ -392,7 +392,7 @@ WriteAttributeValue("", 49165, Resources.WelcomePageImageText_LearnMore, 49165, 
             BeginWriteAttribute("title", " title=\"", 49207, "\"", 49256, 1);
 #nullable restore
 #line 191 "WelcomePage.cshtml"
-WriteAttributeValue("", 49215, Resources.WelcomePageImageText_LearnMore, 49215, 41, false);
+WriteAttributeValue("", 49215, Jokersoft.AspNetCore.Diagnostics.Resources.WelcomePageImageText_LearnMore, 49215, 41, false);
 
 #line default
 #line hidden

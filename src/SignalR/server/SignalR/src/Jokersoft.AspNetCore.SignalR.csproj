@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Components for providing real-time bi-directional communication across the Web.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <IsPackable>true</IsPackable>
+    <Nullable>enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.SignalR.Core" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Connections" />
+  </ItemGroup>
+</Project>

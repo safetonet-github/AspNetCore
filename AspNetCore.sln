@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{2C0222
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{B6081DA9-738E-4088-92DD-7FFA200523C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR", "src\SignalR\server\SignalR\src\Microsoft.AspNetCore.SignalR.csproj", "{BE70E100-E6C4-4686-8592-73E2A04E877F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR", "src\SignalR\server\SignalR\src\Jokersoft.AspNetCore.SignalR.csproj", "{BE70E100-E6C4-4686-8592-73E2A04E877F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{60D51C98-2CC0-40DF-B338-44154EFEE2FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{6DE916F5-E78F-446C-89CB-9240AED2A2E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Server", "src\Components\Server\src\Microsoft.AspNetCore.Components.Server.csproj", "{7546E2DD-2CF4-4240-8045-2533DF539458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.Server", "src\Components\Server\src\Jokersoft.AspNetCore.Components.Server.csproj", "{7546E2DD-2CF4-4240-8045-2533DF539458}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Antiforgery", "Antiforgery", "{B55A5DE1-5AF3-4B18-AF04-C1735B071DA6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Antiforgery", "src\Antiforgery\src\Microsoft.AspNetCore.Antiforgery.csproj", "{210B7FF8-ADD2-4E11-831A-41B28F423E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Antiforgery", "src\Antiforgery\src\Jokersoft.AspNetCore.Antiforgery.csproj", "{210B7FF8-ADD2-4E11-831A-41B28F423E44}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{627BE8B3-59E6-4F1D-8C9C-76B804D41724}"
 EndProject
@@ -35,155 +35,155 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policy", "Policy", "{C63C5E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{B59D558B-AC58-4BA4-B5AF-AE51C8531B28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components", "src\Components\Components\src\Microsoft.AspNetCore.Components.csproj", "{A345753F-B4FA-43E4-8275-151FA5B70728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components", "src\Components\Components\src\Jokersoft.AspNetCore.Components.csproj", "{A345753F-B4FA-43E4-8275-151FA5B70728}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{08B240FC-AE5D-478A-963D-890ADE70B0B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Web", "src\Components\Web\src\Microsoft.AspNetCore.Components.Web.csproj", "{34A797ED-AC07-476D-BEB1-E86DBBF2395A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.Web", "src\Components\Web\src\Jokersoft.AspNetCore.Components.Web.csproj", "{34A797ED-AC07-476D-BEB1-E86DBBF2395A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{0ACCEDA7-339C-4B4D-8DD4-1AC271F31C04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connections.Abstractions", "Connections.Abstractions", "{78DD1AC3-0981-4109-861B-C3E2F1FC3281}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Connections.Abstractions", "src\Servers\Connections.Abstractions\src\Microsoft.AspNetCore.Connections.Abstractions.csproj", "{D5D2C620-42B7-4ECF-A892-295BB124A833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Connections.Abstractions", "src\Servers\Connections.Abstractions\src\Jokersoft.AspNetCore.Connections.Abstractions.csproj", "{D5D2C620-42B7-4ECF-A892-295BB124A833}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{E5963C9F-20A6-4385-B364-814D2581FADF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORS", "CORS", "{27223011-E8E9-4178-9377-44A7B3CBCC21}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Cors", "src\Middleware\CORS\src\Microsoft.AspNetCore.Cors.csproj", "{8CDA0BDC-05C2-451F-9990-2BEF471684BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Cors", "src\Middleware\CORS\src\Jokersoft.AspNetCore.Cors.csproj", "{8CDA0BDC-05C2-451F-9990-2BEF471684BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProtection", "DataProtection", "{380430A1-C02F-4943-8A52-FDFA9F7735F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cryptography.Internal", "Cryptography.Internal", "{5B27FAB7-E5FE-4FF2-8F39-900E177D5E39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Cryptography.Internal", "src\DataProtection\Cryptography.Internal\src\Microsoft.AspNetCore.Cryptography.Internal.csproj", "{392701C6-0BDB-4505-ADB8-1475770A2421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Cryptography.Internal", "src\DataProtection\Cryptography.Internal\src\Jokersoft.AspNetCore.Cryptography.Internal.csproj", "{392701C6-0BDB-4505-ADB8-1475770A2421}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProtection", "DataProtection", "{682157DB-17F2-40D6-B0ED-11B6C6CB064B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.DataProtection", "src\DataProtection\DataProtection\src\Microsoft.AspNetCore.DataProtection.csproj", "{DAF8C29D-5FAE-414F-8630-43CA8ECDCCD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.DataProtection", "src\DataProtection\DataProtection\src\Jokersoft.AspNetCore.DataProtection.csproj", "{DAF8C29D-5FAE-414F-8630-43CA8ECDCCD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{64D54BBB-13D1-4655-A149-CFB754820BD2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.DataProtection.Abstractions", "src\DataProtection\Abstractions\src\Microsoft.AspNetCore.DataProtection.Abstractions.csproj", "{5BF0F5D9-8502-4431-BFFD-CA8B9D21142A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.DataProtection.Abstractions", "src\DataProtection\Abstractions\src\Jokersoft.AspNetCore.DataProtection.Abstractions.csproj", "{5BF0F5D9-8502-4431-BFFD-CA8B9D21142A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostics.Abstractions", "Diagnostics.Abstractions", "{ECB76EBA-0512-4449-95AA-7258F543BA2E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Diagnostics.Abstractions", "src\Middleware\Diagnostics.Abstractions\src\Microsoft.AspNetCore.Diagnostics.Abstractions.csproj", "{1D6348B5-0616-41A6-90ED-09D34C452926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Diagnostics.Abstractions", "src\Middleware\Diagnostics.Abstractions\src\Jokersoft.AspNetCore.Diagnostics.Abstractions.csproj", "{1D6348B5-0616-41A6-90ED-09D34C452926}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{2DB7E3C7-D213-4609-95DD-72561F23AB58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{83C6944F-8F6C-4698-A09A-25DB92BA1AD2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Hosting.Abstractions", "src\Hosting\Abstractions\src\Microsoft.AspNetCore.Hosting.Abstractions.csproj", "{456056B5-3888-47AB-AFD7-4F16A8A1454F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Hosting.Abstractions", "src\Hosting\Abstractions\src\Jokersoft.AspNetCore.Hosting.Abstractions.csproj", "{456056B5-3888-47AB-AFD7-4F16A8A1454F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server.Abstractions", "Server.Abstractions", "{44663691-023E-48D0-9757-A106974E8AAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Hosting.Server.Abstractions", "src\Hosting\Server.Abstractions\src\Microsoft.AspNetCore.Hosting.Server.Abstractions.csproj", "{4DE12851-6ABC-4675-84B8-0E0EFA142F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Hosting.Server.Abstractions", "src\Hosting\Server.Abstractions\src\Jokersoft.AspNetCore.Hosting.Server.Abstractions.csproj", "{4DE12851-6ABC-4675-84B8-0E0EFA142F79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{13E7C397-F40B-4791-B853-F7430AF88D00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{412D4C15-F48F-4DB1-940A-131D1AA87088}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Html.Abstractions", "src\Html.Abstractions\src\Microsoft.AspNetCore.Html.Abstractions.csproj", "{A400C938-46E2-4B84-B06E-487B13D22E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Html.Abstractions", "src\Html.Abstractions\src\Jokersoft.AspNetCore.Html.Abstractions.csproj", "{A400C938-46E2-4B84-B06E-487B13D22E1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{3D330C1E-D773-4BA8-9E91-123544B0D672}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http", "src\Http\Http\src\Microsoft.AspNetCore.Http.csproj", "{563714CA-0022-4A95-BDBB-0953541193CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http", "src\Http\Http\src\Jokersoft.AspNetCore.Http.csproj", "{563714CA-0022-4A95-BDBB-0953541193CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Abstractions", "Http.Abstractions", "{DCBBDB52-4A49-4141-8F4D-81C0FFFB7BD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Abstractions", "src\Http\Http.Abstractions\src\Microsoft.AspNetCore.Http.Abstractions.csproj", "{E55659A7-5489-4E86-B11C-2E41697555F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Abstractions", "src\Http\Http.Abstractions\src\Jokersoft.AspNetCore.Http.Abstractions.csproj", "{E55659A7-5489-4E86-B11C-2E41697555F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{1A304CA0-7795-4684-88E5-E66402966927}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Connections", "Http.Connections", "{A0FFAF00-D628-4BDB-BE68-8DBA21FBBEA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Connections", "src\SignalR\common\Http.Connections\src\Microsoft.AspNetCore.Http.Connections.csproj", "{627F94BE-AD74-4188-9F61-12E5096DA826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Connections", "src\SignalR\common\Http.Connections\src\Jokersoft.AspNetCore.Http.Connections.csproj", "{627F94BE-AD74-4188-9F61-12E5096DA826}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Connections.Common", "Http.Connections.Common", "{BC0E5F62-06EE-407D-83C6-490785E9A011}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Connections.Common", "src\SignalR\common\Http.Connections.Common\src\Microsoft.AspNetCore.Http.Connections.Common.csproj", "{F5EAE3E3-951B-46B7-A6B0-0BC76CCB83C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Connections.Common", "src\SignalR\common\Http.Connections.Common\src\Jokersoft.AspNetCore.Http.Connections.Common.csproj", "{F5EAE3E3-951B-46B7-A6B0-0BC76CCB83C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Extensions", "Http.Extensions", "{225AEDCF-7162-4A86-AC74-06B84660B379}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Extensions", "src\Http\Http.Extensions\src\Microsoft.AspNetCore.Http.Extensions.csproj", "{606C2615-3E08-4A08-993F-FBD90F4CD021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Extensions", "src\Http\Http.Extensions\src\Jokersoft.AspNetCore.Http.Extensions.csproj", "{606C2615-3E08-4A08-993F-FBD90F4CD021}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Features", "Http.Features", "{BFDD5ACE-A1F0-4C33-8DA1-06CB5CA53177}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Features", "src\Http\Http.Features\src\Microsoft.AspNetCore.Http.Features.csproj", "{62043A86-BC6F-432E-9AFD-F3B616192D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Features", "src\Http\Http.Features\src\Jokersoft.AspNetCore.Http.Features.csproj", "{62043A86-BC6F-432E-9AFD-F3B616192D8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{9934060B-1957-40FF-83E1-5C15344E7A33}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Localization", "src\Middleware\Localization\src\Microsoft.AspNetCore.Localization.csproj", "{EEC636DE-4C4D-4F16-9D57-0AD1762CCB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Localization", "src\Middleware\Localization\src\Jokersoft.AspNetCore.Localization.csproj", "{EEC636DE-4C4D-4F16-9D57-0AD1762CCB4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResponseCaching.Abstractions", "ResponseCaching.Abstractions", "{0408482E-7934-49CA-A590-7E21AF4BE1BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.ResponseCaching.Abstractions", "src\Middleware\ResponseCaching.Abstractions\src\Microsoft.AspNetCore.ResponseCaching.Abstractions.csproj", "{A9027A02-135B-4149-947A-79F5B73A7F28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.ResponseCaching.Abstractions", "src\Middleware\ResponseCaching.Abstractions\src\Jokersoft.AspNetCore.ResponseCaching.Abstractions.csproj", "{A9027A02-135B-4149-947A-79F5B73A7F28}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing", "Routing", "{54C42F57-5447-4C21-9812-4AF665567566}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Routing", "src\Http\Routing\src\Microsoft.AspNetCore.Routing.csproj", "{352D08E0-782E-4AE3-99B2-7BC5B2C3F227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Routing", "src\Http\Routing\src\Jokersoft.AspNetCore.Routing.csproj", "{352D08E0-782E-4AE3-99B2-7BC5B2C3F227}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing.Abstractions", "Routing.Abstractions", "{3ACCF669-89AB-4B02-809E-E94C81271BFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Routing.Abstractions", "src\Http\Routing.Abstractions\src\Microsoft.AspNetCore.Routing.Abstractions.csproj", "{DEED8B59-B811-471F-936A-D8D71AA97CE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Routing.Abstractions", "src\Http\Routing.Abstractions\src\Jokersoft.AspNetCore.Routing.Abstractions.csproj", "{DEED8B59-B811-471F-936A-D8D71AA97CE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR.Common", "SignalR.Common", "{DF5E3AC1-94B3-4B8A-B534-9D30924A8E6B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Common", "src\SignalR\common\SignalR.Common\src\Microsoft.AspNetCore.SignalR.Common.csproj", "{B2660D8F-8990-46C7-9B41-F3F94C6402F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Common", "src\SignalR\common\SignalR.Common\src\Jokersoft.AspNetCore.SignalR.Common.csproj", "{B2660D8F-8990-46C7-9B41-F3F94C6402F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4F99BF26-E900-487C-828F-145166926DE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Core", "src\SignalR\server\Core\src\Microsoft.AspNetCore.SignalR.Core.csproj", "{31E763AD-996E-44EF-A70E-1B8187922C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Core", "src\SignalR\server\Core\src\Jokersoft.AspNetCore.SignalR.Core.csproj", "{31E763AD-996E-44EF-A70E-1B8187922C98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protocols.Json", "Protocols.Json", "{989F2C7A-807F-41DA-AA5F-08147E8FF433}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Protocols.Json", "src\SignalR\common\Protocols.Json\src\Microsoft.AspNetCore.SignalR.Protocols.Json.csproj", "{3974EB1C-077A-4A79-B295-87B62446C266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Protocols.Json", "src\SignalR\common\Protocols.Json\src\Jokersoft.AspNetCore.SignalR.Protocols.Json.csproj", "{3974EB1C-077A-4A79-B295-87B62446C266}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StaticFiles", "StaticFiles", "{9AA5D0E4-B341-4570-B3E4-081E6653471D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.StaticFiles", "src\Middleware\StaticFiles\src\Microsoft.AspNetCore.StaticFiles.csproj", "{CE49768E-1D4C-4724-9D35-1D0F73E49C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.StaticFiles", "src\Middleware\StaticFiles\src\Jokersoft.AspNetCore.StaticFiles.csproj", "{CE49768E-1D4C-4724-9D35-1D0F73E49C9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSockets", "WebSockets", "{B7ED4805-AD3E-4D76-BC5B-700A31488493}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.WebSockets", "src\Middleware\WebSockets\src\Microsoft.AspNetCore.WebSockets.csproj", "{AB3A72FB-5DF6-4F95-BAA8-19CF5BC97760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.WebSockets", "src\Middleware\WebSockets\src\Jokersoft.AspNetCore.WebSockets.csproj", "{AB3A72FB-5DF6-4F95-BAA8-19CF5BC97760}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUtilities", "WebUtilities", "{BF4B36D6-D1FA-41A3-9CB3-2E1D2894E2AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.WebUtilities", "src\Http\WebUtilities\src\Microsoft.AspNetCore.WebUtilities.csproj", "{06492CD6-4C51-41F3-9D1A-0A95F914F871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.WebUtilities", "src\Http\WebUtilities\src\Jokersoft.AspNetCore.WebUtilities.csproj", "{06492CD6-4C51-41F3-9D1A-0A95F914F871}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{C59FBB3C-3A7F-4744-A823-1EB92C5B23A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Net.Http.Headers", "src\Http\Headers\src\Microsoft.Net.Http.Headers.csproj", "{62BE5BF4-24BB-4013-ACE8-3D76521FA77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Net.Http.Headers", "src\Http\Headers\src\Jokersoft.Net.Http.Headers.csproj", "{62BE5BF4-24BB-4013-ACE8-3D76521FA77C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzers", "Analyzers", "{7321E95C-0A37-45BD-B458-1BA4412A14AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzers", "Analyzers", "{021E9BF3-2D3D-4169-834E-718ABE0E5B68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Analyzers", "src\Analyzers\Analyzers\src\Microsoft.AspNetCore.Analyzers.csproj", "{E5CA56AF-64B6-47B4-BCB7-EF95B53D14E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Analyzers", "src\Analyzers\Analyzers\src\Jokersoft.AspNetCore.Analyzers.csproj", "{E5CA56AF-64B6-47B4-BCB7-EF95B53D14E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kestrel", "Kestrel", "{4FDDC525-4E60-4CAF-83A3-261C5B43721F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kestrel", "Kestrel", "{89472057-8BB2-44A8-B0FC-D9F3ADB1181C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Server.Kestrel", "src\Servers\Kestrel\Kestrel\src\Microsoft.AspNetCore.Server.Kestrel.csproj", "{D40C86C9-0E5D-4974-84D8-A835B58B2A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Server.Kestrel", "src\Servers\Kestrel\Kestrel\src\Jokersoft.AspNetCore.Server.Kestrel.csproj", "{D40C86C9-0E5D-4974-84D8-A835B58B2A8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D69B5668-86EF-4CC5-814B-113BAF740DD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Server.Kestrel.Core", "src\Servers\Kestrel\Core\src\Microsoft.AspNetCore.Server.Kestrel.Core.csproj", "{0674F69B-FAC8-43E5-8711-A476936F459F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Server.Kestrel.Core", "src\Servers\Kestrel\Core\src\Jokersoft.AspNetCore.Server.Kestrel.Core.csproj", "{0674F69B-FAC8-43E5-8711-A476936F459F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpsPolicy", "HttpsPolicy", "{D9403AE4-77D1-44DE-8785-280C342D215A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HttpsPolicy", "src\Middleware\HttpsPolicy\src\Microsoft.AspNetCore.HttpsPolicy.csproj", "{5DEF52C0-B440-4DAC-8A2D-920C7016C580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.HttpsPolicy", "src\Middleware\HttpsPolicy\src\Jokersoft.AspNetCore.HttpsPolicy.csproj", "{5DEF52C0-B440-4DAC-8A2D-920C7016C580}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{7004082D-53E9-45C2-B2DE-EB3CE448B64F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.DataProtection.Extensions", "src\DataProtection\Extensions\src\Microsoft.AspNetCore.DataProtection.Extensions.csproj", "{478D4BE2-F4AC-45EF-BEE4-35399DECCABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.DataProtection.Extensions", "src\DataProtection\Extensions\src\Jokersoft.AspNetCore.DataProtection.Extensions.csproj", "{478D4BE2-F4AC-45EF-BEE4-35399DECCABF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{68C2D913-06D4-4EAC-9283-78465BF214E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Hosting", "src\Hosting\Hosting\src\Microsoft.AspNetCore.Hosting.csproj", "{D2CA01D0-954A-4F90-AF9B-F081DA9F40E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Hosting", "src\Hosting\Hosting\src\Jokersoft.AspNetCore.Hosting.csproj", "{D2CA01D0-954A-4F90-AF9B-F081DA9F40E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core (2)", "Core (2)", "{03CD847C-2230-4092-BF1C-DE54634805AD}"
 EndProject
@@ -193,7 +193,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JwtBearer", "JwtBearer", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzers", "Analyzers", "{A274799D-3D1F-4AE5-A154-4BF6C80A8D94}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Analyzers", "src\Components\Analyzers\src\Microsoft.AspNetCore.Components.Analyzers.csproj", "{D5DF181B-E759-4797-ABAF-0BFDEC2A883D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.Analyzers", "src\Components\Analyzers\src\Jokersoft.AspNetCore.Components.Analyzers.csproj", "{D5DF181B-E759-4797-ABAF-0BFDEC2A883D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAssembly", "WebAssembly", "{562D5067-8CD8-4F19-BCBB-873204932C61}"
 EndProject
@@ -203,47 +203,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevServer", "DevServer", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{13683DEB-FB7E-4F20-ACB2-015381943541}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.WebAssembly.Server", "src\Components\WebAssembly\Server\src\Microsoft.AspNetCore.Components.WebAssembly.Server.csproj", "{1721A1A3-D8A0-4CEE-A11D-4D168F93F0D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.WebAssembly.Server", "src\Components\WebAssembly\Server\src\Jokersoft.AspNetCore.Components.WebAssembly.Server.csproj", "{1721A1A3-D8A0-4CEE-A11D-4D168F93F0D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Performance", "src\Components\Components\perf\Microsoft.AspNetCore.Components.Performance.csproj", "{4510DA15-69F3-411E-86F2-7AD04FFB9823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.Performance", "src\Components\Components\perf\Jokersoft.AspNetCore.Components.Performance.csproj", "{4510DA15-69F3-411E-86F2-7AD04FFB9823}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefaultBuilder", "DefaultBuilder", "{881FE4C3-1553-4CA1-B430-DDD37B3493AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore", "src\DefaultBuilder\src\Microsoft.AspNetCore.csproj", "{DAAB40E7-73DD-4BF1-BCB7-FE3E20F2F7C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore", "src\DefaultBuilder\src\Jokersoft.AspNetCore.csproj", "{DAAB40E7-73DD-4BF1-BCB7-FE3E20F2F7C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostics", "Diagnostics", "{DE5C0805-1C4A-4C70-B613-89EE2EA0B757}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Diagnostics", "src\Middleware\Diagnostics\src\Microsoft.AspNetCore.Diagnostics.csproj", "{FB86B2B2-60B2-477A-9D78-2530A0089660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Diagnostics", "src\Middleware\Diagnostics\src\Jokersoft.AspNetCore.Diagnostics.csproj", "{FB86B2B2-60B2-477A-9D78-2530A0089660}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HostFiltering", "HostFiltering", "{58915BB2-CEF5-4CA3-8886-A61156564505}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HostFiltering", "src\Middleware\HostFiltering\src\Microsoft.AspNetCore.HostFiltering.csproj", "{7FC5CFC7-9BFE-4C19-90DE-A84A76A8E03D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.HostFiltering", "src\Middleware\HostFiltering\src\Jokersoft.AspNetCore.HostFiltering.csproj", "{7FC5CFC7-9BFE-4C19-90DE-A84A76A8E03D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpOverrides", "HttpOverrides", "{39086512-EBC8-4061-BE34-DCCA5D1BA585}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HttpOverrides", "src\Middleware\HttpOverrides\src\Microsoft.AspNetCore.HttpOverrides.csproj", "{34F24889-22D2-40A1-A2AB-A43B9061FE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.HttpOverrides", "src\Middleware\HttpOverrides\src\Jokersoft.AspNetCore.HttpOverrides.csproj", "{34F24889-22D2-40A1-A2AB-A43B9061FE0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResponseCompression", "ResponseCompression", "{512EFCA7-1590-492A-8D06-84744F79DA91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.ResponseCompression", "src\Middleware\ResponseCompression\src\Microsoft.AspNetCore.ResponseCompression.csproj", "{CC783D3A-71CB-4DFD-9769-9EC7EF1ADF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.ResponseCompression", "src\Middleware\ResponseCompression\src\Jokersoft.AspNetCore.ResponseCompression.csproj", "{CC783D3A-71CB-4DFD-9769-9EC7EF1ADF1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transport.Sockets", "Transport.Sockets", "{94174359-D57E-467E-8AC7-167A10260F34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets", "src\Servers\Kestrel\Transport.Sockets\src\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.csproj", "{94F7E7AE-4AEF-44EC-B9F2-ABD1A5AC9E4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Server.Kestrel.Transport.Sockets", "src\Servers\Kestrel\Transport.Sockets\src\Jokersoft.AspNetCore.Server.Kestrel.Transport.Sockets.csproj", "{94F7E7AE-4AEF-44EC-B9F2-ABD1A5AC9E4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protocols.MessagePack", "Protocols.MessagePack", "{B4B39C18-70F5-4C07-9871-4E124F63F1F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Protocols.MessagePack", "src\SignalR\common\Protocols.MessagePack\src\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.csproj", "{B2D225EF-BE70-4FA0-B631-0A4D24DB7BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Protocols.MessagePack", "src\SignalR\common\Protocols.MessagePack\src\Jokersoft.AspNetCore.SignalR.Protocols.MessagePack.csproj", "{B2D225EF-BE70-4FA0-B631-0A4D24DB7BD7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protocols.NewtonsoftJson", "Protocols.NewtonsoftJson", "{01EED30B-3DC5-4591-A4C2-B17C6D36B1DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson", "src\SignalR\common\Protocols.NewtonsoftJson\src\Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.csproj", "{EDFF668F-1DB2-4EC7-BB6F-9DDBF70437CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Protocols.NewtonsoftJson", "src\SignalR\common\Protocols.NewtonsoftJson\src\Jokersoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.csproj", "{EDFF668F-1DB2-4EC7-BB6F-9DDBF70437CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{F94AF7F5-7DB1-4716-B4B5-A7DAB066AF2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonPatch", "JsonPatch", "{5FF36127-063D-4D3E-9429-3BFD32713FEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.JsonPatch", "src\Features\JsonPatch\src\Microsoft.AspNetCore.JsonPatch.csproj", "{5BFA4A13-895A-4680-BCC6-3BDA8F048A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.JsonPatch", "src\Features\JsonPatch\src\Jokersoft.AspNetCore.JsonPatch.csproj", "{5BFA4A13-895A-4680-BCC6-3BDA8F048A29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{0338EC37-E5AD-47DA-9502-24A5F7433ADE}"
 EndProject
@@ -251,57 +251,57 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{2637A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{A6D39EEA-CC08-4ECF-BD2E-134D845876FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Client", "src\SignalR\clients\csharp\Client\src\Microsoft.AspNetCore.SignalR.Client.csproj", "{95F132DA-D9B6-4181-8D1B-A58D935B1827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Client", "src\SignalR\clients\csharp\Client\src\Jokersoft.AspNetCore.SignalR.Client.csproj", "{95F132DA-D9B6-4181-8D1B-A58D935B1827}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.Core", "Client.Core", "{85EFA9E2-A041-438B-BAF9-928C74571141}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Client.Core", "src\SignalR\clients\csharp\Client.Core\src\Microsoft.AspNetCore.SignalR.Client.Core.csproj", "{9443F095-DA20-4EED-BC97-5BF92470D972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Client.Core", "src\SignalR\clients\csharp\Client.Core\src\Jokersoft.AspNetCore.SignalR.Client.Core.csproj", "{9443F095-DA20-4EED-BC97-5BF92470D972}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Connections.Client", "Http.Connections.Client", "{EA798F59-BCF8-4013-AF6B-9611FDC9919C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Connections.Client", "src\SignalR\clients\csharp\Http.Connections.Client\src\Microsoft.AspNetCore.Http.Connections.Client.csproj", "{C10C8A03-9ECC-4CDC-9D8E-9E0FDF12E4EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Connections.Client", "src\SignalR\clients\csharp\Http.Connections.Client\src\Jokersoft.AspNetCore.Http.Connections.Client.csproj", "{C10C8A03-9ECC-4CDC-9D8E-9E0FDF12E4EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{59ECEDFE-72E7-495D-BECB-784B0018544E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Forms", "src\Components\Forms\src\Microsoft.AspNetCore.Components.Forms.csproj", "{61F6B56C-0764-4585-9C3F-63A0CF05E56E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.Forms", "src\Components\Forms\src\Jokersoft.AspNetCore.Components.Forms.csproj", "{61F6B56C-0764-4585-9C3F-63A0CF05E56E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSInterop", "JSInterop", "{44161B20-CC30-403A-AC94-247592ED7590}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.JSInterop.WebAssembly", "src\Components\WebAssembly\JSInterop\src\Microsoft.JSInterop.WebAssembly.csproj", "{E0B1F2AA-4EBA-4DC7-92D5-2F081354C8DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.JSInterop.WebAssembly", "src\Components\WebAssembly\JSInterop\src\Jokersoft.JSInterop.WebAssembly.csproj", "{E0B1F2AA-4EBA-4DC7-92D5-2F081354C8DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSInterop", "JSInterop", "{E50C2015-42A4-4E71-94B9-62773D369FEE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.JSInterop", "Microsoft.JSInterop", "{16898702-3E33-41C1-B8D8-4CE3F1D46BD9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jokersoft.JSInterop", "Jokersoft.JSInterop", "{16898702-3E33-41C1-B8D8-4CE3F1D46BD9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.JSInterop", "src\JSInterop\Microsoft.JSInterop\src\Microsoft.JSInterop.csproj", "{70B719CD-C70E-4417-B1EE-FD24B5AFB0B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.JSInterop", "src\JSInterop\Microsoft.JSInterop\src\Jokersoft.JSInterop.csproj", "{70B719CD-C70E-4417-B1EE-FD24B5AFB0B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cryptography.KeyDerivation", "Cryptography.KeyDerivation", "{9546F4D5-9625-480F-B5BB-5D6FF9369885}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Cryptography.KeyDerivation", "src\DataProtection\Cryptography.KeyDerivation\src\Microsoft.AspNetCore.Cryptography.KeyDerivation.csproj", "{DA626A01-8198-4E1A-A1EE-0EA4AB0B02C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Cryptography.KeyDerivation", "src\DataProtection\Cryptography.KeyDerivation\src\Jokersoft.AspNetCore.Cryptography.KeyDerivation.csproj", "{DA626A01-8198-4E1A-A1EE-0EA4AB0B02C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StackExchangeRedis", "StackExchangeRedis", "{FE22EB98-C12E-4FAE-A7C2-DF65890F3084}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.DataProtection.StackExchangeRedis", "src\DataProtection\StackExchangeRedis\src\Microsoft.AspNetCore.DataProtection.StackExchangeRedis.csproj", "{87181A18-6A53-43E6-A6B1-1F867C9D3E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.DataProtection.StackExchangeRedis", "src\DataProtection\StackExchangeRedis\src\Jokersoft.AspNetCore.DataProtection.StackExchangeRedis.csproj", "{87181A18-6A53-43E6-A6B1-1F867C9D3E45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore", "EntityFrameworkCore", "{97F5B320-B18E-4275-B0E9-BB5FABDA952F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore", "src\DataProtection\EntityFrameworkCore\src\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.csproj", "{E9216C2B-A12B-48C3-8F5D-C67C5D75EF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.DataProtection.EntityFrameworkCore", "src\DataProtection\EntityFrameworkCore\src\Jokersoft.AspNetCore.DataProtection.EntityFrameworkCore.csproj", "{E9216C2B-A12B-48C3-8F5D-C67C5D75EF02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grpc", "Grpc", "{8DAC59BE-CB96-4F04-909C-56C22E7665EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsServices", "WindowsServices", "{3DC5D8DB-5DA3-4793-B090-9CB89A158B51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Hosting.WindowsServices", "src\Hosting\WindowsServices\src\Microsoft.AspNetCore.Hosting.WindowsServices.csproj", "{F80F007A-AEE5-478A-8A5E-2A4EEDA9FD42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Hosting.WindowsServices", "src\Hosting\WindowsServices\src\Jokersoft.AspNetCore.Hosting.WindowsServices.csproj", "{F80F007A-AEE5-478A-8A5E-2A4EEDA9FD42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Owin", "Owin", "{AA465A56-D9D0-4684-95B0-192F4436C582}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Owin", "src\Http\Owin\src\Microsoft.AspNetCore.Owin.csproj", "{670B30E8-4E6F-453F-A5B7-B6DB3D83FE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Owin", "src\Http\Owin\src\Jokersoft.AspNetCore.Owin.csproj", "{670B30E8-4E6F-453F-A5B7-B6DB3D83FE42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "perf", "perf", "{E7CADFE4-CDD0-4DE3-90ED-7184A969F47B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metadata", "Metadata", "{71DE18B5-87F9-4D03-89BB-C3E243576F92}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Metadata", "src\Http\Metadata\src\Microsoft.AspNetCore.Metadata.csproj", "{3A554C0B-2956-4152-BF31-2C8CAE5D2717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Metadata", "src\Http\Metadata\src\Jokersoft.AspNetCore.Metadata.csproj", "{3A554C0B-2956-4152-BF31-2C8CAE5D2717}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core (3)", "Core (3)", "{9E0B9A09-167E-4DF7-8AA4-F9323A306F90}"
 EndProject
@@ -315,15 +315,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2AFCDBA1-0697-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CookiePolicy", "CookiePolicy", "{62F3EF13-4A89-4912-A22C-31981278B074}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.CookiePolicy", "src\Security\CookiePolicy\src\Microsoft.AspNetCore.CookiePolicy.csproj", "{CE8BC4CA-0068-439A-A012-6B1E764CD5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.CookiePolicy", "src\Security\CookiePolicy\src\Jokersoft.AspNetCore.CookiePolicy.csproj", "{CE8BC4CA-0068-439A-A012-6B1E764CD5D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostics.EntityFrameworkCore", "Diagnostics.EntityFrameworkCore", "{3D551023-1D98-479D-A41E-EBD0C05A06FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore", "src\Middleware\Diagnostics.EntityFrameworkCore\src\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.csproj", "{861CA437-6402-4E45-9E1F-35A509E61568}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rewrite", "Rewrite", "{049030CA-4D78-4B24-A112-28C61AB2509C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Rewrite", "src\Middleware\Rewrite\src\Microsoft.AspNetCore.Rewrite.csproj", "{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Rewrite", "src\Middleware\Rewrite\src\Jokersoft.AspNetCore.Rewrite.csproj", "{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facebook", "Facebook", "{B714B9AB-0A8F-4FB0-902E-6B73CA60DAB8}"
 EndProject
@@ -333,35 +331,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Twitter", "Twitter", "{D38C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiddlewareAnalysis", "MiddlewareAnalysis", "{07AAFECB-4C42-4533-80D5-0452989FA0F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.MiddlewareAnalysis", "src\Middleware\MiddlewareAnalysis\src\Microsoft.AspNetCore.MiddlewareAnalysis.csproj", "{35AA4E31-D157-4AD2-B04F-EE3956795420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.MiddlewareAnalysis", "src\Middleware\MiddlewareAnalysis\src\Jokersoft.AspNetCore.MiddlewareAnalysis.csproj", "{35AA4E31-D157-4AD2-B04F-EE3956795420}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{DF86A07D-A370-4CBD-97DD-DCB09466545F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Diagnostics.HealthChecks", "src\Middleware\HealthChecks\src\Microsoft.AspNetCore.Diagnostics.HealthChecks.csproj", "{8C828211-F2EC-4BFD-B922-98F73D9DAB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Diagnostics.HealthChecks", "src\Middleware\HealthChecks\src\Jokersoft.AspNetCore.Diagnostics.HealthChecks.csproj", "{8C828211-F2EC-4BFD-B922-98F73D9DAB5E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks.EntityFrameworkCore", "HealthChecks.EntityFrameworkCore", "{9C7F31F8-B782-4016-9B0E-72C8CB42334C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore", "src\Middleware\HealthChecks.EntityFrameworkCore\src\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.csproj", "{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization.Routing", "Localization.Routing", "{8C289D6B-712F-442F-A010-218784BFA4D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Localization.Routing", "src\Middleware\Localization.Routing\src\Microsoft.AspNetCore.Localization.Routing.csproj", "{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Localization.Routing", "src\Middleware\Localization.Routing\src\Jokersoft.AspNetCore.Localization.Routing.csproj", "{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResponseCaching", "ResponseCaching", "{7CBB1320-BF86-4B32-9D2B-273A45057727}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.ResponseCaching", "src\Middleware\ResponseCaching\src\Microsoft.AspNetCore.ResponseCaching.csproj", "{186AF4F9-9AFF-4395-9340-006F78D85DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.ResponseCaching", "src\Middleware\ResponseCaching\src\Jokersoft.AspNetCore.ResponseCaching.csproj", "{186AF4F9-9AFF-4395-9340-006F78D85DFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session", "Session", "{48BEABD3-2446-466C-8694-D34EF0949369}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Session", "src\Middleware\Session\src\Microsoft.AspNetCore.Session.csproj", "{609FEA30-36D6-4FEB-AF07-7BE2BCD4D00B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Session", "src\Middleware\Session\src\Jokersoft.AspNetCore.Session.csproj", "{609FEA30-36D6-4FEB-AF07-7BE2BCD4D00B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HeaderPropagation", "HeaderPropagation", "{5527E368-FD50-4E8C-B8D8-C3D1374BE4F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HeaderPropagation", "src\Middleware\HeaderPropagation\src\Microsoft.AspNetCore.HeaderPropagation.csproj", "{EC7CA990-BB0E-44AF-81B6-44E0E27FDE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.HeaderPropagation", "src\Middleware\HeaderPropagation\src\Jokersoft.AspNetCore.HeaderPropagation.csproj", "{EC7CA990-BB0E-44AF-81B6-44E0E27FDE9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrencyLimiter", "ConcurrencyLimiter", "{4F8ED87D-E4D9-4941-94D7-D529D83DDBA0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.ConcurrencyLimiter", "src\Middleware\ConcurrencyLimiter\src\Microsoft.AspNetCore.ConcurrencyLimiter.csproj", "{532D447F-0CDE-4BA6-B181-DD1FB4B07BF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.ConcurrencyLimiter", "src\Middleware\ConcurrencyLimiter\src\Jokersoft.AspNetCore.ConcurrencyLimiter.csproj", "{532D447F-0CDE-4BA6-B181-DD1FB4B07BF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "perf", "perf", "{9ECF118E-D7A5-4805-B698-DE9013BB91C6}"
 EndProject
@@ -389,17 +385,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "perf", "perf", "{5095E70C-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StackExchangeRedis", "StackExchangeRedis", "{CD9041EE-8C47-4C6F-8A21-6EDCBC0D409E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.StackExchangeRedis", "src\SignalR\server\StackExchangeRedis\src\Microsoft.AspNetCore.SignalR.StackExchangeRedis.csproj", "{DEA32B7F-E9B4-4E87-8B47-30555D286D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.StackExchangeRedis", "src\SignalR\server\StackExchangeRedis\src\Jokersoft.AspNetCore.SignalR.StackExchangeRedis.csproj", "{DEA32B7F-E9B4-4E87-8B47-30555D286D93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebEncoders", "WebEncoders", "{4C93CC04-1EE4-48EA-8FAE-DC2283528BEB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.WebEncoders", "src\WebEncoders\src\Microsoft.Extensions.WebEncoders.csproj", "{AA2F0EF8-FB46-4F05-89D4-025F348ABDD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.WebEncoders", "src\WebEncoders\src\Jokersoft.Extensions.WebEncoders.csproj", "{AA2F0EF8-FB46-4F05-89D4-025F348ABDD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileProviders", "FileProviders", "{FED63417-432B-49CD-AB4B-44ADA837C2E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Embedded", "Embedded", "{898F7E0B-1671-42CB-9DFB-689AFF212ED3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.FileProviders.Embedded", "src\FileProviders\Embedded\src\Microsoft.Extensions.FileProviders.Embedded.csproj", "{65EE0531-4533-407F-A9CA-2EBCDC444397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.FileProviders.Embedded", "src\FileProviders\Embedded\src\Jokersoft.Extensions.FileProviders.Embedded.csproj", "{65EE0531-4533-407F-A9CA-2EBCDC444397}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-dev-certs", "dotnet-dev-certs", "{A4EECF29-6E66-4E7F-B781-A169B0C2AB29}"
 EndProject
@@ -423,7 +419,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transport.Quic", "Transport
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectPool", "ObjectPool", "{E235DAAD-FE73-469E-B16F-F2B8E872E217}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.ObjectPool", "src\ObjectPool\src\Microsoft.Extensions.ObjectPool.csproj", "{CE5D01C2-6BBD-4F33-A1C4-A1479DA99CAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.ObjectPool", "src\ObjectPool\src\Jokersoft.Extensions.ObjectPool.csproj", "{CE5D01C2-6BBD-4F33-A1C4-A1479DA99CAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ANCM", "ANCM", "{D62AF49B-F9FE-4794-AC39-A473FF13CA81}"
 EndProject
@@ -433,31 +429,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A91479A-4AB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{22D7D74B-565D-4047-97B4-F149B1A13350}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions", "src\HealthChecks\Abstractions\src\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.csproj", "{B06040BC-DA28-4923-8CAC-20EB517D471B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Diagnostics.HealthChecks.Abstractions", "src\HealthChecks\Abstractions\src\Jokersoft.Extensions.Diagnostics.HealthChecks.Abstractions.csproj", "{B06040BC-DA28-4923-8CAC-20EB517D471B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Diagnostics.HealthChecks", "src\HealthChecks\HealthChecks\src\Microsoft.Extensions.Diagnostics.HealthChecks.csproj", "{55CACC1F-FE96-47C8-8073-91F4CAA55C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Diagnostics.HealthChecks", "src\HealthChecks\HealthChecks\src\Jokersoft.Extensions.Diagnostics.HealthChecks.csproj", "{55CACC1F-FE96-47C8-8073-91F4CAA55C75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.KeyPerFile", "src\Configuration.KeyPerFile\src\Microsoft.Extensions.Configuration.KeyPerFile.csproj", "{498A4F54-F11A-46C5-A58D-09DE56C6A034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Configuration.KeyPerFile", "src\Configuration.KeyPerFile\src\Jokersoft.Extensions.Configuration.KeyPerFile.csproj", "{498A4F54-F11A-46C5-A58D-09DE56C6A034}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration.KeyPerFile", "Configuration.KeyPerFile", "{AEB1933E-9369-4305-B20E-F186F888158F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manifest.MSBuildTask", "Manifest.MSBuildTask", "{8C15FD04-7F90-43FC-B488-023432FE3CE1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.FileProviders.Embedded.Manifest.Task", "src\FileProviders\Manifest.MSBuildTask\src\Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.csproj", "{37329855-01B8-4B03-9765-1A941B06E43C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.FileProviders.Embedded.Manifest.Task", "src\FileProviders\Manifest.MSBuildTask\src\Jokersoft.Extensions.FileProviders.Embedded.Manifest.Task.csproj", "{37329855-01B8-4B03-9765-1A941B06E43C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{3D34C81F-2CB5-459E-87E9-0CC04757A2A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Localization.Abstractions", "src\Localization\Abstractions\src\Microsoft.Extensions.Localization.Abstractions.csproj", "{FEF97646-9BC9-4D1B-A939-784D915C18A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Localization.Abstractions", "src\Localization\Abstractions\src\Jokersoft.Extensions.Localization.Abstractions.csproj", "{FEF97646-9BC9-4D1B-A939-784D915C18A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Localization", "src\Localization\Localization\src\Microsoft.Extensions.Localization.csproj", "{839CE175-E0D9-43B9-9FA8-F32C47E7F56B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Localization", "src\Localization\Localization\src\Jokersoft.Extensions.Localization.csproj", "{839CE175-E0D9-43B9-9FA8-F32C47E7F56B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SiteExtensions", "SiteExtensions", "{DFC4F588-B4B4-484B-AB93-B36721374AD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoggingAggregate", "LoggingAggregate", "{48FF1D87-5066-4294-B802-2D1B478C6EB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.Web.Xdt.Extensions", "Microsoft.Web.Xdt.Extensions", "{56B45580-B089-424E-A847-A6115D591950}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jokersoft.Web.Xdt.Extensions", "Jokersoft.Web.Xdt.Extensions", "{56B45580-B089-424E-A847-A6115D591950}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Web.Xdt.Extensions", "src\SiteExtensions\Microsoft.Web.Xdt.Extensions\src\Microsoft.Web.Xdt.Extensions.csproj", "{4382555A-E4CD-4DFC-B59B-408FD4E93530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Web.Xdt.Extensions", "src\SiteExtensions\Microsoft.Web.Xdt.Extensions\src\Jokersoft.Web.Xdt.Extensions.csproj", "{4382555A-E4CD-4DFC-B59B-408FD4E93530}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sdk", "Sdk", "{E83B0BCC-A8E0-4FBD-BE51-9A533C9CB972}"
 EndProject
@@ -465,41 +461,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{0F39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClientFactory", "HttpClientFactory", "{8DFA596B-BD00-404E-9445-BCFAC65BDC34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Http.Polly", "src\HttpClientFactory\Polly\src\Microsoft.Extensions.Http.Polly.csproj", "{4FB95E16-918B-49C1-9F65-49D07CDE072C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Http.Polly", "src\HttpClientFactory\Polly\src\Jokersoft.Extensions.Http.Polly.csproj", "{4FB95E16-918B-49C1-9F65-49D07CDE072C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlServer", "SqlServer", "{43ED0D49-E29A-4B12-8D10-531E006038E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StackExchangeRedis", "StackExchangeRedis", "{A7B8F295-AD6E-42C1-A215-17337033EBE9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Caching.StackExchangeRedis", "src\Caching\StackExchangeRedis\src\Microsoft.Extensions.Caching.StackExchangeRedis.csproj", "{3CC4AA4E-F7E6-4BAE-B2B7-BCEC9509F68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Caching.StackExchangeRedis", "src\Caching\StackExchangeRedis\src\Jokersoft.Extensions.Caching.StackExchangeRedis.csproj", "{3CC4AA4E-F7E6-4BAE-B2B7-BCEC9509F68D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebView", "WebView", "{C445B129-0A4D-41F5-8347-6534B6B12303}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpLogging", "HttpLogging", "{022B4B80-E813-4256-8034-11A68146F4EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.HttpLogging", "src\Middleware\HttpLogging\src\Microsoft.AspNetCore.HttpLogging.csproj", "{FF413F1C-A998-4FA2-823F-52AC0916B35C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.HttpLogging", "src\Middleware\HttpLogging\src\Jokersoft.AspNetCore.HttpLogging.csproj", "{FF413F1C-A998-4FA2-823F-52AC0916B35C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{17F28812-983E-4415-A55D-842DD7EC6887}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Features", "src\Extensions\Features\src\Microsoft.Extensions.Features.csproj", "{A07D3B13-388B-444F-9E37-DDC0787C4690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.Extensions.Features", "src\Extensions\Features\src\Jokersoft.Extensions.Features.csproj", "{A07D3B13-388B-444F-9E37-DDC0787C4690}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotinoPlatform", "PhotinoPlatform", "{44963D50-8B58-44E6-918D-788BCB406695}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http.Results", "Http.Results", "{323C3EB6-1D15-4B3D-918D-699D7F64DED9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Http.Results", "src\Http\Http.Results\src\Microsoft.AspNetCore.Http.Results.csproj", "{092EA9F6-84D4-41EF-A618-BDA50A0E10A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Http.Results", "src\Http\Http.Results\src\Jokersoft.AspNetCore.Http.Results.csproj", "{092EA9F6-84D4-41EF-A618-BDA50A0E10A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.SourceGenerator", "Client.SourceGenerator", "{4FC50620-4C8B-495F-859C-BFACAD158033}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Client.SourceGenerator", "src\SignalR\clients\csharp\Client.SourceGenerator\src\Microsoft.AspNetCore.SignalR.Client.SourceGenerator.csproj", "{E090F82D-8345-477E-92E8-F724F08ADC56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.SignalR.Client.SourceGenerator", "src\SignalR\clients\csharp\Client.SourceGenerator\src\Jokersoft.AspNetCore.SignalR.Client.SourceGenerator.csproj", "{E090F82D-8345-477E-92E8-F724F08ADC56}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreAnalyzers", "AspNetCoreAnalyzers", "{4DA84F2B-1948-439B-85AB-E99E31331A9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5D98AEB-9409-4280-8225-9C1EC6A791B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.App.Analyzers", "src\Framework\AspNetCoreAnalyzers\src\Analyzers\Microsoft.AspNetCore.App.Analyzers.csproj", "{2A150BE3-D7DC-4E2A-8399-6EBAB77DEF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.App.Analyzers", "src\Framework\AspNetCoreAnalyzers\src\Analyzers\Jokersoft.AspNetCore.App.Analyzers.csproj", "{2A150BE3-D7DC-4E2A-8399-6EBAB77DEF00}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.App.CodeFixes", "src\Framework\AspNetCoreAnalyzers\src\CodeFixes\Microsoft.AspNetCore.App.CodeFixes.csproj", "{D5F4D764-887D-4EB3-8D00-FCBE23FFDBBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.App.CodeFixes", "src\Framework\AspNetCoreAnalyzers\src\CodeFixes\Jokersoft.AspNetCore.App.CodeFixes.csproj", "{D5F4D764-887D-4EB3-8D00-FCBE23FFDBBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installers", "Installers", "{5E46DC83-C39C-4E3A-B242-C064607F4367}"
 EndProject
@@ -513,11 +509,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutputCaching", "OutputCaching", "{AA5ABFBC-177C-421E-B743-005E0FD1248B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.OutputCaching", "src\Middleware\OutputCaching\src\Microsoft.AspNetCore.OutputCaching.csproj", "{5D5A3B60-A014-447C-9126-B1FA6C821C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.OutputCaching", "src\Middleware\OutputCaching\src\Jokersoft.AspNetCore.OutputCaching.csproj", "{5D5A3B60-A014-447C-9126-B1FA6C821C8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestDecompression", "RequestDecompression", "{5465F96F-33D5-454E-9C40-494E58AEEE5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.RequestDecompression", "src\Middleware\RequestDecompression\src\Microsoft.AspNetCore.RequestDecompression.csproj", "{559FE354-7E08-4310-B4F3-AE30F34DEED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.RequestDecompression", "src\Middleware\RequestDecompression\src\Jokersoft.AspNetCore.RequestDecompression.csproj", "{559FE354-7E08-4310-B4F3-AE30F34DEED5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkabilityChecker", "LinkabilityChecker", "{94F95276-7CDF-44A8-B159-D09702EF6794}"
 EndProject
@@ -529,13 +525,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "perf", "perf", "{5CDB8ABC-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{151E6F9E-107B-4DDC-A2B1-95115801FD14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Grpc.JsonTranscoding", "src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.JsonTranscoding\Microsoft.AspNetCore.Grpc.JsonTranscoding.csproj", "{109C702D-DACE-4F82-A490-15E5AFA94005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Grpc.JsonTranscoding", "src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.JsonTranscoding\Jokersoft.AspNetCore.Grpc.JsonTranscoding.csproj", "{109C702D-DACE-4F82-A490-15E5AFA94005}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Grpc.Swagger", "src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.Swagger\Microsoft.AspNetCore.Grpc.Swagger.csproj", "{E3C5FAD2-8AB7-47C8-AAFD-8262551A5D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Grpc.Swagger", "src\Grpc\JsonTranscoding\src\Microsoft.AspNetCore.Grpc.Swagger\Jokersoft.AspNetCore.Grpc.Swagger.csproj", "{E3C5FAD2-8AB7-47C8-AAFD-8262551A5D11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildAfterTargetingPack", "BuildAfterTargetingPack", "{489020F2-80D9-4468-A5D3-07E785837A5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.RateLimiting", "src\Middleware\RateLimiting\src\Microsoft.AspNetCore.RateLimiting.csproj", "{8EE73488-2B92-42BD-96C9-0DD65405C828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.RateLimiting", "src\Middleware\RateLimiting\src\Jokersoft.AspNetCore.RateLimiting.csproj", "{8EE73488-2B92-42BD-96C9-0DD65405C828}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateLimiting", "RateLimiting", "{1D865E78-7A66-4CA9-92EE-2B350E45281F}"
 EndProject
@@ -551,7 +547,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestInfrastructure", "TestI
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stress", "stress", "{A5946454-4788-4871-8F23-A9471D55F115}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.CustomElements", "src\Components\CustomElements\src\Microsoft.AspNetCore.Components.CustomElements.csproj", "{76C3E22D-092B-4E8A-81F0-DCF071BFF4CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jokersoft.AspNetCore.Components.CustomElements", "src\Components\CustomElements\src\Jokersoft.AspNetCore.Components.CustomElements.csproj", "{76C3E22D-092B-4E8A-81F0-DCF071BFF4CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomElements", "CustomElements", "{0BB58FB6-8B66-4C6D-BA8A-DF3AFAF9AB8F}"
 EndProject
@@ -1559,22 +1555,6 @@ Global
 		{CE8BC4CA-0068-439A-A012-6B1E764CD5D7}.Release|x64.Build.0 = Release|Any CPU
 		{CE8BC4CA-0068-439A-A012-6B1E764CD5D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE8BC4CA-0068-439A-A012-6B1E764CD5D7}.Release|x86.Build.0 = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|arm64.Build.0 = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|x64.Build.0 = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Debug|x86.Build.0 = Debug|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|Any CPU.Build.0 = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|arm64.ActiveCfg = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|arm64.Build.0 = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|x64.ActiveCfg = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|x64.Build.0 = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|x86.ActiveCfg = Release|Any CPU
-		{861CA437-6402-4E45-9E1F-35A509E61568}.Release|x86.Build.0 = Release|Any CPU
 		{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C}.Debug|arm64.ActiveCfg = Debug|Any CPU
@@ -1623,22 +1603,6 @@ Global
 		{8C828211-F2EC-4BFD-B922-98F73D9DAB5E}.Release|x64.Build.0 = Release|Any CPU
 		{8C828211-F2EC-4BFD-B922-98F73D9DAB5E}.Release|x86.ActiveCfg = Release|Any CPU
 		{8C828211-F2EC-4BFD-B922-98F73D9DAB5E}.Release|x86.Build.0 = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|arm64.Build.0 = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|x64.Build.0 = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Debug|x86.Build.0 = Debug|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|arm64.ActiveCfg = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|arm64.Build.0 = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|x64.ActiveCfg = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|x64.Build.0 = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|x86.ActiveCfg = Release|Any CPU
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119}.Release|x86.Build.0 = Release|Any CPU
 		{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8}.Debug|arm64.ActiveCfg = Debug|Any CPU
@@ -2264,7 +2228,6 @@ Global
 		{62F3EF13-4A89-4912-A22C-31981278B074} = {A39335E5-7A26-4CFD-BF3B-2CFE75113498}
 		{CE8BC4CA-0068-439A-A012-6B1E764CD5D7} = {62F3EF13-4A89-4912-A22C-31981278B074}
 		{3D551023-1D98-479D-A41E-EBD0C05A06FF} = {E5963C9F-20A6-4385-B364-814D2581FADF}
-		{861CA437-6402-4E45-9E1F-35A509E61568} = {3D551023-1D98-479D-A41E-EBD0C05A06FF}
 		{049030CA-4D78-4B24-A112-28C61AB2509C} = {E5963C9F-20A6-4385-B364-814D2581FADF}
 		{5EE9EEE3-C472-4A6D-8DB8-C82998584E2C} = {049030CA-4D78-4B24-A112-28C61AB2509C}
 		{07AAFECB-4C42-4533-80D5-0452989FA0F7} = {E5963C9F-20A6-4385-B364-814D2581FADF}
@@ -2272,7 +2235,6 @@ Global
 		{DF86A07D-A370-4CBD-97DD-DCB09466545F} = {E5963C9F-20A6-4385-B364-814D2581FADF}
 		{8C828211-F2EC-4BFD-B922-98F73D9DAB5E} = {DF86A07D-A370-4CBD-97DD-DCB09466545F}
 		{9C7F31F8-B782-4016-9B0E-72C8CB42334C} = {E5963C9F-20A6-4385-B364-814D2581FADF}
-		{6DEB6C24-3A35-4E72-BCA8-33344EEE0119} = {9C7F31F8-B782-4016-9B0E-72C8CB42334C}
 		{8C289D6B-712F-442F-A010-218784BFA4D4} = {E5963C9F-20A6-4385-B364-814D2581FADF}
 		{D8DE9D37-4733-45F0-9F9D-B5A184CA1ED8} = {8C289D6B-712F-442F-A010-218784BFA4D4}
 		{7CBB1320-BF86-4B32-9D2B-273A45057727} = {E5963C9F-20A6-4385-B364-814D2581FADF}

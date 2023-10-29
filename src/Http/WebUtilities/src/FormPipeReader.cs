@@ -8,6 +8,7 @@ using System.IO.Pipelines;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
+using Jokersoft.AspNetCore.WebUtilities;
 using Microsoft.AspNetCore.Internal;
 using Microsoft.Extensions.Primitives;
 

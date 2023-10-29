@@ -3,6 +3,7 @@
 
 using System;
 using System.Diagnostics.CodeAnalysis;
+using Jokersoft.AspNetCore.DataProtection;
 
 namespace Microsoft.AspNetCore.DataProtection;
 

@@ -6,6 +6,7 @@ using System.Composition;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
+using Jokersoft.AspNetCore.Components.Analyzers;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CodeActions;
 using Microsoft.CodeAnalysis.CodeFixes;

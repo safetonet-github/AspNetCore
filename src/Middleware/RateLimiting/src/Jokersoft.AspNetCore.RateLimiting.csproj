@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core middleware for enforcing rate limiting in an application</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore</PackageTags>
+    <IsTrimmable>true</IsTrimmable>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <IsPackable>true</IsPackable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Options" />
+    <Reference Include="System.Threading.RateLimiting" />
+    <Compile Include="$(SharedSourceRoot)ValueStopwatch\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Jokersoft.AspNetCore.RateLimiting.Tests" />
+  </ItemGroup>
+</Project>

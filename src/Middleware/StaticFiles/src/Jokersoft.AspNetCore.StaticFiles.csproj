@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>ASP.NET Core static files middleware. Includes middleware for serving static files, directory browsing, and default files.</Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore;staticfiles</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(SharedSourceRoot)RangeHelper\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Hosting.Abstractions" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Jokersoft.AspNetCore.Routing" />
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <Reference Include="Jokersoft.Extensions.WebEncoders" />
+  </ItemGroup>
+</Project>

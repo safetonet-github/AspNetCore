@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <Description>Support for rendering ASP.NET Core components for browsers.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RootNamespace>Jokersoft.AspNetCore.Components</RootNamespace>
+    <Nullable>enable</Nullable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Components" />
+    <Reference Include="Jokersoft.AspNetCore.Components.Forms" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection" />
+    <Reference Include="Jokersoft.JSInterop" />
+    <Reference Include="System.IO.Pipelines" />
+  </ItemGroup>
+</Project>

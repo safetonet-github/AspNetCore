@@ -4,6 +4,7 @@
 #nullable enable
 
 using System.Collections.Concurrent;
+using Jokersoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.AspNetCore.Connections;
 
 namespace Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure;

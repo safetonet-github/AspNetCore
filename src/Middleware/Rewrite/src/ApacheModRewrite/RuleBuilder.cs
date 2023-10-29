@@ -4,6 +4,7 @@
 using System.Diagnostics;
 using System.Globalization;
 using System.Text.RegularExpressions;
+using Jokersoft.AspNetCore.Rewrite;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Rewrite.UrlActions;
 using Microsoft.AspNetCore.Rewrite.UrlMatches;

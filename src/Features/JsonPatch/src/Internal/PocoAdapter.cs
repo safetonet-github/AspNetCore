@@ -3,6 +3,7 @@
 
 using System;
 using System.Linq;
+using Jokersoft.AspNetCore.JsonPatch;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;

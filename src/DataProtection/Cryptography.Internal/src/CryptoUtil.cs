@@ -9,7 +9,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Cryptography.Cng;
-using Microsoft.AspNetCore.Cryptography.Internal;
+using Jokersoft.AspNetCore.Cryptography.Internal;
 
 namespace Microsoft.AspNetCore.Cryptography;
 

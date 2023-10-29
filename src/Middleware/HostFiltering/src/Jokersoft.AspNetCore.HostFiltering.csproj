@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>
+      ASP.NET Core middleware for filtering out requests with unknown HTTP host headers.
+    </Description>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <IsAspNetCoreApp>true</IsAspNetCoreApp>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>aspnetcore</PackageTags>
+    <IsPackable>true</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.Http" />
+    <Reference Include="Jokersoft.AspNetCore.Http.Extensions" />
+    <Reference Include="Microsoft.Extensions.Options" />
+    <Reference Include="Jokersoft.AspNetCore.Hosting.Abstractions" />
+  </ItemGroup>
+</Project>

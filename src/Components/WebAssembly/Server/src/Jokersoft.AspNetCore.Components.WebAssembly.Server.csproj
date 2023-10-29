@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
+    <Description>Runtime server features for ASP.NET Core Blazor applications.</Description>
+    <IsShippingPackage>true</IsShippingPackage>
+    <NoWarn>$(NoWarn);NU5100</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+  <GeneratePackageOnBuild>True</GeneratePackageOnBuild></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jokersoft.AspNetCore.StaticFiles" />
+    <Reference Include="Microsoft.NETCore.BrowserDebugHost.Transport" GeneratePathProperty="true" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Jokersoft.AspNetCore.Components.WebAssembly.Server.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(ComponentsSharedSourceRoot)\src\CacheHeaderSettings.cs" Link="Shared\CacheHeaderSettings.cs" />
+    <Compile Include="$(SharedSourceRoot)\CommandLineUtils\Utilities\DotNetMuxer.cs" Link="Shared\DotNetMuxer.cs" />
+    <Content Include="build\**" Pack="true" PackagePath="build\%(RecursiveDir)%(FileName)%(Extension)" />
+  </ItemGroup>
+  <Target Name="IncludeDebugProxyBinariesAsContent" BeforeTargets="AssignTargetPaths">
+    <ItemGroup>
+      <DebugProxyBinaries Include="$(PkgMicrosoft_NETCore_BrowserDebugHost_Transport)\tools\$(DefaultNetCoreTargetFramework)\**" />
+      <Content Include="@(DebugProxyBinaries)" Pack="true" PackagePath="tools\BlazorDebugProxy\%(RecursiveDir)%(FileName)%(Extension)" Link="BlazorDebugProxy\%(RecursiveDir)%(FileName)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+  </Target>
+</Project>

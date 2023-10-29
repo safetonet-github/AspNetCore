@@ -3,7 +3,7 @@
 
 using System;
 using System.Runtime.InteropServices;
-using Microsoft.AspNetCore.Cryptography.Internal;
+using Jokersoft.AspNetCore.Cryptography.Internal;
 
 namespace Microsoft.AspNetCore.Cryptography.Cng;
 

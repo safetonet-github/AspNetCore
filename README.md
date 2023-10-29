@@ -5,7 +5,7 @@
 This Is A Giant Hack
 ====================
 
-I wanted Kestrel and other core ASP.NET functionality to work on all platforms, including MAUI supported platforms. Ever since about version 2.2.*, Microsoft moved these things from independent packages to forcing users to pull in the entire Web SDK to use them. I hacked and slashed through AspNetCore until I could get a bunch of packages compiling independently. YMMV and use are your own risk. To summarize changes:
+I wanted Kestrel and other core ASP.NET functionality to work on all platforms, including MAUI supported platforms. Ever since about version 2.2.*, Microsoft moved these things from independent packages to forcing users to pull in the entire Web SDK to use them. I hacked and slashed through AspNetCore until I could get a bunch of packages compiling independently. YMMV and use at your own risk. To summarize changes:
 
 I changed the package names only. The project does generate some namespaces but AFAIK, they're all internal. In other words, there are some cases where code is in Jokersoft.* NS, but should only be internal. Therefore, should be a drop-in replacement with original MS namespaces preserved. You will therefore get conflicts if you import both the Jokersoft.* package and matching real Microsoft.* package.
 
@@ -16,7 +16,7 @@ Some caveats:
 - I deleted / excluded the authorization packages and there is strong coupling in Kestrel and SignalR to them. I placed throw NotImplementedException in some of function calls that are coupled, and outright deleted the authorization middleware integration in kestrel core. So, you'd need to bring in your own auth middleware and make sure it takes priority over other middlware. THIS HAS BIG SECURITY IMPLICATIONS SO CONSIDER THIS WISELY.
 - I can live with these shortcomings cause I just need a high performance HTTP server for proxying. It's probably the best that can be done while we wait to see what Microsoft will do to sort out their cross-platform plan.
 
-This is a hack / mess and the only benefit to publishing it will be for people to repro packages on their own and for transparency/security.
+This is a hack / mess and the only benefit to publishing this is for people to repro packages on their own and for transparency/security.
 
 Thise code is based on the [tagged release 7.0.13](https://github.com/dotnet/aspnetcore/tree/v7.0.13).
 
